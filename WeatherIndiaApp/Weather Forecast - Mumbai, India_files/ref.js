@@ -1,0 +1,14 @@
+document.write('<script type="text/javascript">');
+document.write('var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");');
+document.write('document.write(unescape("%3Cscript src=\'" + gaJsHost + "google-analytics.com/ga.js\' type=\'text/javascript\'%3E%3C/script%3E"));');
+document.write('</script>');
+document.write('<script type="text/javascript">');
+document.write('try {');
+document.write('var pageTracker = _gat._getTracker("UA-5072993-4");');
+document.write('pageTracker._trackPageview();');
+document.write('} catch(err) {}</script>');
+document.write('<script type="text/javascript">');
+document.write('_qoptions={ qacct:"p-7f2s0TywMVkN-" };');
+document.write('</script>');
+document.write('<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>');
+document.write('<noscript><img src="http://pixel.quantserve.com/pixel/p-7f2s0TywMVkN-.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></noscript>');

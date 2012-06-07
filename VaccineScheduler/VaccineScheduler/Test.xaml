@@ -1,0 +1,192 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="VaccineScheduler.Test"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Resources>
+            <Style TargetType="Grid">
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+                <Setter Property="Margin" Value="20 0 0 0"/>
+            </Style>
+            <Style TargetType="TextBlock" x:Name="ScheduleStyle">
+                <Setter Property="FontSize" Value="40"/>
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+                <Setter Property="Margin" Value="7 0 0 10"/>
+            </Style>
+        </Grid.Resources>
+        <controls:Panorama Title="Vaccine Schedule">
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem x:Name="item1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="schedule1" Style="{StaticResource ScheduleStyle}"/>
+                    <Grid Grid.Row="1"  x:Name = "grid1" HorizontalAlignment="Left"/>
+                </Grid>                
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem x:Name="item2">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="schedule2" Style="{StaticResource ScheduleStyle}"/>
+                    <Grid Grid.Row="1"  x:Name = "grid2" HorizontalAlignment="Left"/>
+                </Grid>                
+            </controls:PanoramaItem>
+            <!--Panorama item two-->
+            <controls:PanoramaItem x:Name="item3">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="schedule3" Style="{StaticResource ScheduleStyle}"/>
+                    <Grid Grid.Row="1"  x:Name = "grid3" HorizontalAlignment="Left"/>
+                </Grid>                 
+            </controls:PanoramaItem>
+            <!--Panorama item two-->
+            <controls:PanoramaItem x:Name="item4">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="schedule4" Style="{StaticResource ScheduleStyle}"/>
+                    <Grid Grid.Row="1"  x:Name = "grid4" HorizontalAlignment="Left"/>
+                </Grid>                
+            </controls:PanoramaItem>
+            <!--Panorama item two-->
+            <controls:PanoramaItem x:Name="item5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="schedule5" Style="{StaticResource ScheduleStyle}"/>
+                    <Grid Grid.Row="1"  x:Name = "grid5" HorizontalAlignment="Left"/>
+                </Grid>                
+            </controls:PanoramaItem>
+            <!--Panorama item two-->
+            <controls:PanoramaItem x:Name="item6">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="schedule6" Style="{StaticResource ScheduleStyle}"/>
+                    <Grid Grid.Row="1"  x:Name = "grid6" HorizontalAlignment="Left"/>
+                </Grid>                
+            </controls:PanoramaItem>
+            <!--Panorama item two-->
+            <controls:PanoramaItem x:Name="item7">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="schedule7" Style="{StaticResource ScheduleStyle}"/>
+                    <Grid Grid.Row="1"  x:Name = "grid7" HorizontalAlignment="Left"/>
+                </Grid>                
+            </controls:PanoramaItem>
+            <!--Panorama item two-->
+            <controls:PanoramaItem x:Name="item8">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="schedule8" Style="{StaticResource ScheduleStyle}"/>
+                    <Grid Grid.Row="1"  x:Name = "grid8" HorizontalAlignment="Left"/>
+                </Grid>                
+            </controls:PanoramaItem>
+            <!--Panorama item two-->
+            <controls:PanoramaItem x:Name="item9">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="schedule9" Style="{StaticResource ScheduleStyle}"/>
+                    <Grid Grid.Row="1"  x:Name = "grid9" HorizontalAlignment="Left"/>
+                </Grid>                
+            </controls:PanoramaItem>
+            <!--Panorama item two-->
+            <controls:PanoramaItem x:Name="item10">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="schedule10" Style="{StaticResource ScheduleStyle}"/>
+                    <Grid Grid.Row="1"  x:Name = "grid10" HorizontalAlignment="Left"/>
+                </Grid>                
+            </controls:PanoramaItem>
+            <!--Panorama item two-->
+            <controls:PanoramaItem x:Name="item11">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="schedule11" Style="{StaticResource ScheduleStyle}"/>
+                    <Grid Grid.Row="1"  x:Name = "grid11" HorizontalAlignment="Left"/>
+                </Grid>                
+            </controls:PanoramaItem>
+            <!--Panorama item two-->
+            <controls:PanoramaItem x:Name="item12">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="schedule12" Style="{StaticResource ScheduleStyle}"/>
+                    <Grid Grid.Row="1"  x:Name = "grid12" HorizontalAlignment="Left"/>
+                </Grid>                
+            </controls:PanoramaItem>
+            <!--Panorama item two-->
+            <controls:PanoramaItem x:Name="item13">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="schedule13" Style="{StaticResource ScheduleStyle}"/>
+                    <Grid Grid.Row="1"  x:Name = "grid13" HorizontalAlignment="Left"/>
+                </Grid>                
+            </controls:PanoramaItem>
+            <!--Panorama item two-->
+            <controls:PanoramaItem x:Name="item14">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="schedule14" Style="{StaticResource ScheduleStyle}"/>
+                    <Grid Grid.Row="1"  x:Name = "grid14" HorizontalAlignment="Left"/>
+                </Grid>                
+            </controls:PanoramaItem>          
+        </controls:Panorama>        
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>

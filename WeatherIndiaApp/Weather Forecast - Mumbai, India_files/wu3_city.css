@@ -1,0 +1,795 @@
+#layerLocation {
+	margin-bottom: 12px;
+}
+#layerCurrent {
+	width: 636px; float: left;
+}
+#layerForecast {
+	width: 636px; float: left;
+}
+#layerRegional {
+	width: 984px; clear: both;
+}
+#layerCommunity {
+	width: 984px; clear: both;
+}
+#layerActivities {
+	width: 984px; clear: both;
+}
+#layerActivities {
+	width: 984px; clear: both;
+}
+#locationBarTop {
+	height: 30px; font-size: 11px;
+}
+#locationBarTop #locationName {
+	background: url("http://icons.wxug.com/i/wu/locationMarker.png") no-repeat; padding: 2px 10px 0px 24px; height: 28px; line-height: 21px; font-size: 21px; float: left;
+}
+#locationBarTop #setFavorite {
+	margin: 2px 4px 0px 0px; float: left;
+}
+#locationBarTop #setFavorite a {
+	background: url("http://icons.wxug.com/i/wu/favStar.png") no-repeat 0px 0px; width: 20px; height: 20px; overflow: hidden; text-decoration: none; display: block;
+}
+#locationBarTop #setFavorite a:hover {
+	background: url("http://icons.wxug.com/i/wu/favStar.png") no-repeat 0px -40px; overflow: hidden;
+}
+#locationBarTop #setFavorite a.active {
+	background: url("http://icons.wxug.com/i/wu/favStar.png") no-repeat 0px -20px; width: 20px; height: 20px; overflow: hidden; display: block;
+}
+#locationBarTop #setHomepage {
+	float: left;
+}
+#locationBarTop #setHomepage .isHomepage {
+	background: url("http://icons.wxug.com/i/wu/setHome_on.png") no-repeat; width: 26px; height: 24px; overflow: hidden; display: block;
+}
+#locationBarTop #setHomepage .notHomepage {
+	background: url("http://icons.wxug.com/i/wu/setHome.png") no-repeat; width: 26px; height: 24px; overflow: hidden; display: block;
+}
+#locationBarTop #setHomepage .notHomepage:hover {
+	background: url("http://icons.wxug.com/i/wu/setHome.png") no-repeat 0px -24px;
+}
+#locationBarTop #infoData {
+	height: 22px; margin-top: 8px; float: right;
+}
+#locationBarTop #infoTime {
+	background: url("http://icons.wxug.com/i/wu/locationClock.png") no-repeat; margin: 2px 0px 0px 10px; height: 20px; color: rgb(153, 153, 153); padding-left: 17px; float: right;
+}
+#locationBarTop #infoTime span {
+	color: rgb(51, 51, 51); font-weight: bold;
+}
+#locationBarTop #infoElevation {
+	background: url("http://icons.wxug.com/i/wu/tickUpSmall.png") no-repeat right bottom; padding: 2px 11px 0px 10px; height: 22px; color: rgb(153, 153, 153); float: right;
+}
+#locationBarTop #infoElevation span {
+	color: rgb(51, 51, 51);
+}
+#locationBarTop #infoLongitude {
+	background: url("http://icons.wxug.com/i/wu/tickUpSmall.png") no-repeat right bottom; padding: 2px 11px 0px 10px; height: 22px; color: rgb(153, 153, 153); float: right;
+}
+#locationBarTop #infoLongitude span {
+	color: rgb(51, 51, 51);
+}
+#locationBarTop #infoLatitude {
+	background: url("http://icons.wxug.com/i/wu/tickUpSmall.png") no-repeat right bottom; padding: 2px 11px 0px 10px; height: 22px; color: rgb(153, 153, 153); float: right;
+}
+#locationBarTop #infoLatitude span {
+	color: rgb(51, 51, 51);
+}
+#locationBarBottom {
+	width: 100%; clear: both; font-size: 11px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+#locationBarBottom #rfTitle {
+	color: rgb(51, 51, 51); vertical-align: middle; white-space: nowrap;
+}
+#locationBarBottom #rfSwitch {
+	padding: 6px; vertical-align: middle;
+}
+#locationBarBottom #rfUpdate {
+	color: rgb(51, 51, 51); vertical-align: middle; white-space: nowrap;
+}
+#locationBarBottom #makeSticker {
+	background: url("http://icons.wxug.com/i/wu/tickDownSmall.png") no-repeat right top; width: 100%; text-align: right; padding-right: 6px; vertical-align: middle;
+}
+#locationBarBottom #postShare {
+	padding-left: 6px; white-space: nowrap;
+}
+#locationBarBottom #postWeather {
+	margin: 4px 4px 0px 6px; width: 78px; white-space: nowrap;
+}
+#locationBarBottom #socialRSS {
+	background: url("http://icons.wxug.com/i/wu/socialBar.png") no-repeat -49px -5px; width: 16px; height: 16px; margin-right: 4px; display: block;
+}
+#locationBarBottom #socialMore {
+	background: url("http://icons.wxug.com/i/wu/socialBar.png") no-repeat -71px -5px; width: 16px; height: 16px; margin-right: 4px; display: block;
+}
+#locationBarBottom #likeButton {
+	background: url("http://icons.wxug.com/i/wu/tickDownSmall.png") no-repeat left top;
+}
+#locationBarBottom #likeButton div {
+	width: 53px; height: 27px; overflow: hidden; margin-left: 4px; position: relative;
+}
+#locationBarBottom #likeButton #buttoniframe {
+	margin: 0px; padding: 0px; border: 0px currentColor; left: -58px; top: -28px; overflow: hidden !important; position: absolute;
+}
+#locationBarBottom #socialWeather {
+	background: url("http://icons.wxug.com/i/wu/socialBar.png") no-repeat; margin: 1px 0px 0px 1px; width: 92px; height: 26px; overflow: hidden; float: right;
+}
+#locationBarBottom #socialWeather #socialFacebook {
+	margin: 5px 1px 5px 5px; width: 16px; height: 16px; float: left; display: block;
+}
+#locationBarBottom #socialWeather #socialTwitter {
+	margin: 5px 1px 5px 5px; width: 16px; height: 16px; float: left; display: block;
+}
+#locationBarBottom #socialWeather #socialRSS {
+	margin: 5px 1px 5px 5px; width: 16px; height: 16px; float: left; display: block;
+}
+#locationBarBottom #socialWeather #socialMore {
+	margin: 5px 1px 5px 5px; width: 16px; height: 16px; float: left; display: block;
+}
+#locationBarBottom #plusOne {
+	padding: 3px 5px 0px; width: 38px; height: 24px; overflow: hidden;
+}
+#socialList ul {
+	margin: -1px -1px 0px 0px; padding: 0px; font-size: 11px; list-style-type: none; background-color: rgb(57, 90, 169);
+}
+#socialList ul li {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#socialList ul li a {
+	padding: 7px 10px; color: rgb(255, 255, 255); border-bottom-color: rgb(97, 123, 186); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+#socialList ul li a:first-child {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+#socialList ul li a:hover {
+	background-color: rgb(77, 107, 178);
+}
+#conds_stationselect {
+	background: url("http://icons.wxug.com/i/wu/gradDownSmall.png") repeat-x; height: 47px;
+}
+#conds_stationselect .titleSubtle {
+	margin-bottom: 5px;
+}
+#conds_stationselect #stationName {
+	background: url("http://icons.wxug.com/i/wu/tickDownSmall.png") no-repeat right top; padding: 7px 10px 0px; float: left;
+}
+#conds_stationselect #stationElevation {
+	padding: 7px 10px 0px; float: left;
+}
+#conds_stationselect #stationSelect a {
+	background: url("http://icons.wxug.com/i/wu/buttonBG.png") repeat-x top; padding: 0px 10px 0px 5px; border: 1px solid rgb(153, 153, 153); width: 100px; height: 21px; color: rgb(51, 51, 51); line-height: 21px; overflow: hidden; margin-top: 12px; margin-right: 13px; float: right; display: block;
+}
+#conds_stationselect #stationSelect a span {
+	background: url("http://icons.wxug.com/i/wu/buttonTarget.png") no-repeat left; height: 21px; line-height: 21px; padding-left: 20px; display: block;
+}
+#conds_stationselect #stationSelect:hover a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+#conds_dashboard {
+	background: url("http://icons.wxug.com/i/wu/gradDownBG.png") repeat-x top; clear: both; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid; min-height: 153px;
+}
+#conds_dashboard #hour00 #nowCond {
+	padding: 7px 10px 10px; width: 170px; float: left;
+}
+#conds_dashboard #hour00 #nowCond #curIcon {
+	width: 48px; height: 48px; margin-top: 7px; float: left;
+}
+#conds_dashboard #hour00 #nowCond #curCond {
+	margin: 11px 0px 0px 10px; width: 110px; color: rgb(51, 51, 51); font-size: 12px; font-weight: bold; float: left;
+}
+#conds_dashboard #hour00 #nowTemp {
+	background: url("http://icons.wxug.com/i/wu/tickDownSmall.png") no-repeat left top; padding: 7px 10px 10px; width: 90px; float: left;
+}
+#conds_dashboard #hour00 #nowTemp #tempActual {
+	font-size: 24px; font-weight: bold; margin-top: 9px;
+}
+#conds_dashboard #hour00 #nowTemp #tempActual span.tempUnit {
+	color: rgb(102, 102, 102);
+}
+#conds_dashboard #hour00 #nowTemp #tempFeel {
+	color: rgb(102, 102, 102); font-size: 11px; margin-top: 1px;
+}
+#conds_dashboard #hour00 #nowWind {
+	background: url("http://icons.wxug.com/i/wu/tickDownSmall.png") no-repeat left top; padding: 7px 10px 10px; width: 72px; float: left;
+}
+#conds_dashboard #hour00 #nowWind #windCompassContainer {
+	width: 62px; height: 64px; overflow: hidden; margin-top: -1px; margin-left: -6px;
+}
+#conds_dashboard #hour00 #nowWind #windCompass {
+	background: url("http://icons.wxug.com/i/wu/windCompass64.png") no-repeat 0px 0px; width: 62px; height: 64px; display: block;
+}
+#conds_dashboard #hour00 #nowWind #windCompassSpeed {
+	top: -39px; width: 62px; text-align: center; font-size: 14px; font-weight: bold; display: block; position: relative; z-index: 100;
+}
+#conds_dashboard #hour00 #nowSuns {
+	background: url("http://icons.wxug.com/i/wu/tickDownSmall.png") no-repeat left top; padding: 7px 10px 10px; width: 77px; font-size: 11px; float: left;
+}
+#conds_dashboard #hour00 #nowSuns #sRise {
+	background: url("http://icons.wxug.com/i/wu/miniAstronomy.png") no-repeat 0px 0px; height: 12px; padding-left: 17px; margin-top: 11px;
+}
+#conds_dashboard #hour00 #nowSuns #sSet {
+	background: url("http://icons.wxug.com/i/wu/miniAstronomy.png") no-repeat 0px -13px; height: 12px; padding-left: 17px; margin-top: 5px;
+}
+#conds_dashboard #hour00 #nowMoon {
+	background: url("http://icons.wxug.com/i/wu/tickDownSmall.png") no-repeat left top; padding: 7px 10px 10px; width: 123px; font-size: 11px; float: left;
+}
+#conds_dashboard #hour00 #nowMoon #mMore {
+	height: 12px; padding-left: 17px; margin-top: 5px;
+}
+#conds_dashboard #hour00 #nowMoon #mPhase {
+	height: 12px; padding-left: 17px; margin-top: 11px; background-image: url("http://icons.wxug.com/i/wu/miniAstronomy.png"); background-repeat: no-repeat;
+}
+#conds_dashboard #hour00 .moonNorth .pfirstqtr {
+	background-position: 0px -78px;
+}
+#conds_dashboard #hour00 .moonNorth .pfull {
+	background-position: 0px -104px;
+}
+#conds_dashboard #hour00 .moonNorth .plastqtr {
+	background-position: 0px -26px;
+}
+#conds_dashboard #hour00 .moonNorth .pnew {
+	background-position: 0px -52px;
+}
+#conds_dashboard #hour00 .moonNorth .pwaningcrescent {
+	background-position: 0px -39px;
+}
+#conds_dashboard #hour00 .moonNorth .pwaninggibbous {
+	background-position: 0px -117px;
+}
+#conds_dashboard #hour00 .moonNorth .pwaxingcrescent {
+	background-position: 0px -65px;
+}
+#conds_dashboard #hour00 .moonNorth .pwaxinggibbous {
+	background-position: 0px -91px;
+}
+#conds_dashboard #hour00 .moonSouth .pfirstqtr {
+	background-position: 0px -26px;
+}
+#conds_dashboard #hour00 .moonSouth .pfull {
+	background-position: 0px -104px;
+}
+#conds_dashboard #hour00 .moonSouth .plastqtr {
+	background-position: 0px -78px;
+}
+#conds_dashboard #hour00 .moonSouth .pnew {
+	background-position: 0px -52px;
+}
+#conds_dashboard #hour00 .moonSouth .pwaningcrescent {
+	background-position: 0px -65px;
+}
+#conds_dashboard #hour00 .moonSouth .pwaninggibbous {
+	background-position: 0px -91px;
+}
+#conds_dashboard #hour00 .moonSouth .pwaxingcrescent {
+	background-position: 0px -39px;
+}
+#conds_dashboard #hour00 .moonSouth .pwaxinggibbous {
+	background-position: 0px -117px;
+}
+#conds_dashboard #hourZZ {
+	background: url("http://icons.wxug.com/i/wu/gradDownBG.png") repeat-x top; clear: both; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+#conds_dashboard #hourZZ .foreGlance {
+	background: url("http://icons.wxug.com/i/wu/tickDownMed.png") no-repeat left top; padding: 8px 0px 7px 10px; width: 95px; float: left; min-height: 40px;
+}
+#conds_dashboard #hourZZ :first-child.foreGlance {
+	padding: 8px 0px 10px 10px; width: 95px; float: left; min-height: 40px;
+}
+#conds_dashboard #hourZZ .foreGlance .foreSummary {
+	height: 24px; line-height: 24px; margin-top: 7px;
+}
+#conds_dashboard #hourZZ .foreGlance .foreSummary a.iconSwitchSmall {
+	margin-right: 5px; float: left;
+}
+#conds_dashboard #hourZZ .foreGlance .foreCondition {
+	padding-top: 7px; clear: both; font-size: 11px;
+}
+#conds_dashboard #hourZZ .foreGlance .foreCondition div {
+	margin-top: 6px;
+}
+#conds_quickcast {
+	clear: both; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+#conds_quickcast #forecastLink {
+	padding: 9px 10px; float: right;
+}
+#conds_quickcast #relativeTemp {
+	padding: 8px 10px; color: rgb(51, 51, 51); float: left;
+}
+#conds_quickcast #relativeTemp .warmer {
+	color: rgb(204, 102, 0);
+}
+#conds_quickcast #relativeTemp .cooler {
+	color: rgb(133, 160, 202);
+}
+#conds_quickcast #relativeTemp .same {
+	color: rgb(51, 51, 51);
+}
+#conds_tabs {
+	background: url("http://icons.wxug.com/i/wu/condTabsBG.png") repeat-x; height: 41px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+#conds_tabs #detailTabs {
+	padding: 0px 0px 0px 10px; width: 410px; height: 30px; margin-top: 11px; float: left;
+}
+#conds_tabs #imageTabs {
+	height: 30px; overflow: hidden; margin-top: 11px; float: left;
+}
+#conds_details {
+	background: url("http://icons.wxug.com/i/wu/allDataBG.png") repeat-y; width: 634px; overflow: hidden; clear: both; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+#conds_details #curData1 {
+	padding: 5px; width: 200px; float: left;
+}
+#conds_details #curData2 {
+	padding: 5px; width: 200px; float: left;
+}
+#conds_details #curData3 {
+	padding: 10px; width: 193px; float: right;
+}
+#conds_details .dataCol1 {
+	width: 75px; overflow: hidden; padding-bottom: 1px; padding-left: 5px; clear: both; font-size: 11px; margin-bottom: 10px; float: left;
+}
+#conds_details .dataCol2 {
+	width: 60px; overflow: hidden; padding-bottom: 1px; font-size: 11px; margin-bottom: 10px; float: left;
+}
+#conds_details .dataCol3 {
+	width: 60px; overflow: hidden; padding-bottom: 1px; font-size: 11px; margin-bottom: 10px; float: left;
+}
+#conds_details .dataCol4 {
+	width: 120px; overflow: hidden; padding-bottom: 1px; font-size: 11px; margin-bottom: 10px; float: left;
+}
+#conds_details .dataCol5 {
+	width: 195px; overflow: hidden; padding-bottom: 1px; padding-left: 5px; font-size: 11px; margin-bottom: 10px;
+}
+#conds_details .faqMetar {
+	color: rgb(102, 102, 102); font-size: 10px;
+}
+#conds_details #radarImage {
+	width: 192px; height: 192px;
+}
+#conds_details #goWunderMap {
+	margin-top: 10px;
+}
+#conds_details #goWunderMap a {
+	background: url("http://icons.wxug.com/i/wu/goWunderMapBG.png") no-repeat; width: 192px; height: 36px; line-height: 36px; padding-left: 69px; display: block;
+}
+#conds_details .imageUpdated {
+	text-align: center; color: rgb(102, 102, 102); font-size: 10px;
+}
+#conds_details .imageContain {
+	clear: both;
+}
+#conds_details .imageContain #camgallery {
+	margin-top: 5px;
+}
+#conds_details .imageNotFound {
+	height: 193px; color: rgb(102, 102, 102); padding-top: 20px; font-size: 11px;
+}
+X#conds_details .pRising {
+	background: url("/i/wu/pressUpDown.png") no-repeat right;
+}
+X#conds_details .pSteady {
+	background: url("/i/wu/pressUpDown.png") no-repeat right;
+}
+#conds_details #conds_details_cur_box {
+	background: url("http://icons.wxug.com/i/wu/curDataBG.png") repeat-y; width: 420px; overflow: hidden; float: left;
+}
+#conds_details #conds_details_hist_box {
+	padding: 5px; width: 410px; overflow: hidden; float: left; background-color: rgb(255, 255, 255);
+}
+#conds_details #conds_details_hist_box #historyToday .dataRow td {
+	padding: 5px; color: rgb(102, 102, 102); font-size: 11px;
+}
+#conds_details #conds_details_hist_box #historyToday .dataRow td:first-child {
+	color: rgb(51, 51, 51);
+}
+#conds_details #conds_details_hist_box #historyToday .dataRow td span {
+	color: rgb(51, 51, 51);
+}
+#conds_details #conds_details_hist_box #loadHistory {
+	width: 100%; text-align: center; margin-top: 100px;
+}
+#conds_details #conds_details_hist_box #moreHistory {
+	color: rgb(102, 102, 102); font-size: 10px; margin-top: 20px;
+}
+#conds_details #conds_details_fct_box {
+	padding: 5px; width: 410px; overflow: hidden; float: left; background-color: rgb(255, 255, 255);
+}
+#conds_details #conds_details_radarbox {
+	width: 213px; overflow: hidden; float: right;
+}
+#conds_details #conds_details_radarbox #radarLinks {
+	margin: 7px 0px 0px; padding: 0px; list-style-type: none;
+}
+#conds_details #conds_details_radarbox #radarLinks li {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#conds_details #conds_details_radarbox #radarLinks li a {
+	padding: 7px 10px; display: block;
+}
+#conds_details #conds_details_radarbox #radarLinks li a:hover {
+	background-color: rgb(226, 232, 243);
+}
+#conds_details_radar_overlay {
+	display: none;
+}
+#conds_details_radar_overlay a {
+	width: 77px; height: 63px; background-image: url("http://icons.wxug.com/i/wu/radarOptions.png"); background-repeat: no-repeat;
+}
+#conds_details_radar_overlay a#conds_details_radar_overlay_left {
+	float: left;
+}
+#conds_details_radar_overlay a#conds_details_radar_overlay_left:hover {
+	background-position: left -64px;
+}
+#conds_details_radar_overlay a#conds_details_radar_overlay_right {
+	background-position: right top; float: right;
+}
+#conds_details_radar_overlay a#conds_details_radar_overlay_right:hover {
+	background-position: right -128px;
+}
+#conds_details_webcams #camgallery {
+	top: -3px; width: 192px; height: 150px; text-align: center; position: relative;
+}
+#conds_details_webcams #camgallery img {
+	top: -3px; width: 192px; height: 150px; text-align: center; position: relative;
+}
+#conds_details_webcams #camNav {
+	top: -3px; width: 192px; height: 17px; text-align: center; color: rgb(102, 102, 102); line-height: 17px; font-size: 11px; position: relative; background-color: rgb(232, 232, 232);
+}
+#conds_details_webcams #camDesc {
+	text-align: center; font-size: 11px; margin-top: 4px;
+}
+#conds_nowcast_head {
+	background: url("http://icons.wxug.com/i/wu/nowBarBG.png") repeat-x top rgb(239, 239, 239); height: 29px; clear: both; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+#conds_nowcast_head a {
+	background: url("http://icons.wxug.com/i/wu/nowBarArrows.png") no-repeat top; width: 30px; height: 29px; float: right; display: block;
+}
+#conds_nowcast_head a.nowcastHide {
+	
+}
+#conds_nowcast_head a.nowcastHide:hover {
+	background-position: 0px -30px;
+}
+#conds_nowcast_head a.nowcastShow {
+	background-position: 0px -90px;
+}
+#conds_nowcast_head a.nowcastShow:hover {
+	background-position: 0px -60px;
+}
+#conds_nowcast_head div {
+	height: 29px; line-height: 29px; padding-left: 10px; float: left;
+}
+#conds_nowcast_head div span {
+	font-weight: bold;
+}
+#conds_nowcast {
+	padding: 10px; clear: both; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid; background-color: rgb(239, 239, 239);
+}
+#forecast {
+	color: rgb(51, 51, 51); clear: both;
+}
+#fct_titlebar {
+	background: url("http://icons.wxug.com/i/wu/gradDownSmall.png") repeat-x; padding: 0px 10px; height: 29px; line-height: 29px;
+}
+#fct_titlebar #viewCal {
+	background: url("http://icons.wxug.com/i/wu/iconViewCal.png") no-repeat; height: 17px; line-height: 17px; padding-left: 22px; font-size: 11px; margin-top: 6px; float: right; display: block;
+}
+#fct_days {
+	height: 144px; clear: both; position: relative;
+}
+#fct_days .fctDay {
+	width: 121px; height: 143px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid; float: left; display: block; position: relative; z-index: 100; cursor: pointer;
+}
+#fct_days .fctActive {
+	background: url("http://icons.wxug.com/i/wu/gradDownSmall.png") repeat-x top rgb(255, 255, 255);
+}
+#fct_days .fctInactive {
+	background: url("http://icons.wxug.com/i/wu/gradDownSmallG.png") repeat-x top rgb(244, 244, 244); color: rgb(102, 102, 102);
+}
+#fct_days .fctDay:hover {
+	background: url("http://icons.wxug.com/i/wu/gradDownSmall.png") repeat-x top rgb(255, 255, 255);
+}
+#fct_days .fctDay:hover .fctDayDate {
+	text-decoration: underline;
+}
+#fct_days .fctDayActive .fctDayDate {
+	font-weight: bold;
+}
+#fct_days .fctDay .fctDayDate {
+	color: rgb(33, 63, 154); font-weight: bold;
+}
+#fct_days .fctDayExt {
+	background: url("http://icons.wxug.com/i/wu/websiteArrow.png") no-repeat right;
+}
+#fct_days .fctDayDate {
+	height: 30px; text-align: center; line-height: 30px;
+}
+#fct_days .fctDayContent {
+	border-top-color: rgb(224, 224, 224); border-top-width: 1px; border-top-style: solid;
+}
+#fct_days .fctDayContent .fctCondIcon {
+	margin: 7px 5px 4px 7px; width: 32px; height: 32px; float: left;
+}
+#fct_days .fctDayContent .fctHiLow {
+	font-size: 14px; margin-top: 15px; float: left;
+}
+#fct_days .fctDayContent .fctDayConditions {
+	text-align: center; clear: both; font-weight: bold;
+}
+#fct_days .fctDayContent .fctDayPop {
+	padding: 5px 0px; left: 7px; width: 107px; bottom: 0px; border-top-color: rgb(220, 220, 220); border-top-width: 1px; border-top-style: solid; position: absolute;
+}
+#fct_days .fctDayContent .fctDayPop .popValue {
+	padding-top: 3px; font-size: 14px; font-weight: bold; margin-right: 10px; float: right;
+}
+#fct_days .fctDayContent .fctDayPop .popText {
+	font-size: 10px; float: right;
+}
+#fct_days .fctDaysContain {
+	height: 144px; overflow: hidden; position: relative;
+}
+#fct_days .fctScrollContain {
+	width: 877px; height: 144px; position: relative;
+}
+#fct_days .fctArrow {
+	width: 25px; height: 143px; float: left; display: block; position: relative;
+}
+#fct_days a.disabled {
+	display: none;
+}
+#fct_days #leftArrow a {
+	background: url("http://icons.wxug.com/i/wu/fctDayArrows.png") no-repeat 0px 0px; width: 25px; height: 143px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid; display: block;
+}
+#fct_days #leftArrow a:hover {
+	background: url("http://icons.wxug.com/i/wu/fctDayArrows.png") no-repeat -25px 0px; width: 25px; height: 143px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid; display: block;
+}
+#fct_days #rightArrow a {
+	background: url("http://icons.wxug.com/i/wu/fctDayArrows.png") no-repeat -75px 0px; width: 25px; height: 143px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid; display: block;
+}
+#fct_days #rightArrow a:hover {
+	background: url("http://icons.wxug.com/i/wu/fctDayArrows.png") no-repeat -50px 0px; width: 25px; height: 143px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid; display: block;
+}
+#fct_details .fct_daylight_wrapper {
+	left: 0px; top: 1px; width: 507px; height: 224px; margin-left: 127px; position: absolute;
+}
+#fct_details .fct_daylight_wrapper .fct_daylight {
+	height: 100%; background-color: rgb(254, 246, 229);
+}
+#fct_details .fct_hourlytable table {
+	background: url("http://icons.wxug.com/i/wu/hourlyHeaderBG.png") no-repeat 0px 0px; width: 100%; font-size: 11px; border-collapse: collapse;
+}
+#fct_details #fct_hourlybar th {
+	height: 28px; line-height: 28px; font-weight: normal; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+#fct_details #fct_hourlybar .hrLink {
+	width: 116px; text-align: left; padding-left: 10px; font-size: 12px; font-weight: bold;
+}
+#fct_details #fct_hourlybar .hrTime {
+	width: 126px; text-align: center; color: rgb(102, 102, 102); font-size: 10px;
+}
+#fct_details #fct_hourlydetails .hrFirstRow td {
+	background: url("http://icons.wxug.com/i/wu/transDrop.png") repeat-x;
+}
+#fct_details #fct_hourlydetails td {
+	height: 27px; line-height: 27px; border-top-color: rgb(224, 224, 224); border-top-width: 1px; border-top-style: solid;
+}
+#fct_details #fct_hourlydetails td.hrType {
+	padding-left: 10px; font-size: 10px;
+}
+#fct_details #fct_hourlydetails td.hrData {
+	text-align: center;
+}
+#fct_details #fct_hourlydetails #fctSuns {
+	height: 12px; text-align: left; position: relative;
+}
+#fct_details #fct_hourlydetails #fctSuns #sRiseHr {
+	background: url("http://icons.wxug.com/i/wu/miniAstronomy.png") no-repeat; margin: 0px -6px; padding: 0px 17px; height: 12px; line-height: 12px; white-space: nowrap; position: absolute;
+}
+#fct_details #fct_hourlydetails #fctSuns #sSetHr {
+	background: url("http://icons.wxug.com/i/wu/miniAstronomy.png") no-repeat; margin: 0px -6px; padding: 0px 17px; height: 12px; line-height: 12px; white-space: nowrap; position: absolute;
+}
+#fct_details #fct_hourlydetails #fctSuns #sRiseHr {
+	
+}
+#fct_details #fct_hourlydetails #fctSuns #sSetHr {
+	background-position: left -13px;
+}
+#fct_details #fct_hourlydetails #fctSuns .fctSunsLeft#sRiseHr {
+	background-position: right 0px;
+}
+#fct_details #fct_hourlydetails #fctSuns .fctSunsLeft#sSetHr {
+	background-position: right -13px;
+}
+#fct_details .fct_zone .fctZoneHeader {
+	background: url("http://icons.wxug.com/i/wu/gradDownSmall.png") repeat-x top; padding: 7px 0px 7px 10px; font-weight: bold; border-top-color: rgb(190, 190, 190); border-bottom-color: rgb(190, 190, 190); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#fct_details .fct_zone .fctZoneHeader .fctSource {
+	color: rgb(102, 102, 102); font-size: 10px; font-weight: normal; margin-right: 10px; float: right;
+}
+#fct_details .fct_zone .fctZoneDay {
+	padding: 10px; width: 290px; font-size: 11px; float: left;
+}
+#fct_details .fct_zone .fctZoneNight {
+	padding: 10px; width: 290px; font-size: 11px; float: right;
+}
+#fct_details .fct_zone .fctZoneFull {
+	padding: 10px; width: 614px; font-size: 11px;
+}
+#fct_details .fct_zone .iconSwitchSmall {
+	margin: 5px 6px 12px 0px; float: left;
+}
+#fct_details .fct_zone .fctText {
+	margin-top: 3px;
+}
+#fctLinkSource {
+	padding: 7px 10px; border-top-color: rgb(224, 224, 224); border-bottom-color: rgb(190, 190, 190); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#fctLinkSource .wuData {
+	color: rgb(102, 102, 102); font-size: 10px; font-weight: normal; margin-right: 10px; float: right;
+}
+#fctQuality {
+	padding: 10px 10px 0px; color: rgb(51, 51, 51);
+}
+#fctSelect {
+	padding: 10px; color: rgb(51, 51, 51);
+}
+#fctSelect #expFctInfoButton {
+	color: rgb(102, 102, 102); text-decoration: none; border-bottom-color: rgb(102, 102, 102); border-bottom-width: 1px; border-bottom-style: dotted; cursor: help;
+}
+#fctSelect #expFctInfoButton:hover {
+	text-decoration: none;
+}
+.hourlyBars img {
+	margin: 0px auto; display: block;
+}
+.fctSource {
+	color: rgb(102, 102, 102); font-size: 10px; font-weight: normal; margin-right: 10px; float: right;
+}
+#stationselector {
+	background: url("http://icons.wxug.com/i/wu/gradDownBG.png") repeat-x top rgb(255, 255, 255); border: 1px solid rgb(190, 190, 190); left: 0px; top: 0px; width: 634px; position: absolute; z-index: 300;
+}
+#stationselector_map {
+	width: 322px; height: 501px; float: right;
+}
+#stationselector_air {
+	width: 312px; float: left;
+}
+#stationselector_pws {
+	width: 312px; margin-top: 10px; border-top-color: rgb(222, 222, 222); border-top-width: 1px; border-top-style: solid; float: left;
+}
+.expanded#stationselector_button {
+	background-position: right bottom !important;
+}
+#stationselector_webcampreview {
+	position: absolute;
+}
+#stationselector_webcampreview img {
+	border: 4px solid rgb(0, 0, 0); width: 140px; height: 100px; display: block; background-color: rgb(255, 255, 255);
+}
+.stationselectorHeaderAirport {
+	background: url("http://icons.wxug.com/i/wu/stationSelector.png") no-repeat 0px 0px;
+}
+.stationselectorHeaderPWS {
+	background: url("http://icons.wxug.com/i/wu/stationSelector.png") no-repeat 0px 0px;
+}
+.stationselectorRowAirportIcon {
+	background: url("http://icons.wxug.com/i/wu/stationSelector.png") no-repeat 0px 0px;
+}
+.stationselectorRowPWSIcon {
+	background: url("http://icons.wxug.com/i/wu/stationSelector.png") no-repeat 0px 0px;
+}
+.stationselectorMarkerAirport {
+	background: url("http://icons.wxug.com/i/wu/stationSelector.png") no-repeat 0px 0px;
+}
+.stationselectorMarkerPWS {
+	background: url("http://icons.wxug.com/i/wu/stationSelector.png") no-repeat 0px 0px;
+}
+.stationselectorHeaderAirport {
+	background-position: 0px -165px; margin: 10px; padding-left: 18px;
+}
+.stationselectorHeaderPWS {
+	background-position: 0px -179px; margin: 10px; padding-left: 18px;
+}
+.stationselectorRowAirport {
+	margin: 2px 6px; padding: 4px; width: 292px; height: 15px; line-height: 15px; overflow: hidden; font-size: 11px; display: block; white-space: nowrap;
+}
+.stationselectorRowPWS {
+	margin: 2px 6px; padding: 4px; width: 292px; height: 15px; line-height: 15px; overflow: hidden; font-size: 11px; display: block; white-space: nowrap;
+}
+.none.stationselectorRowAirport {
+	display: none;
+}
+.none.stationselectorRowPWS {
+	display: none;
+}
+.stationselectorRowAirportIcon {
+	
+}
+.stationselectorRowPWSIcon {
+	background-position: 0px -32px;
+}
+.stationselectorRowAirportIcon {
+	width: 18px; height: 15px; text-align: center; color: rgb(255, 255, 255); line-height: 15px; overflow: hidden; margin-right: 6px; float: left; display: block;
+}
+.stationselectorRowPWSIcon {
+	width: 18px; height: 15px; text-align: center; color: rgb(255, 255, 255); line-height: 15px; overflow: hidden; margin-right: 6px; float: left; display: block;
+}
+.noStations {
+	margin: 10px; color: rgb(102, 102, 102); font-size: 11px;
+}
+.hover.stationselectorRowAirport {
+	background-color: rgb(232, 235, 245);
+}
+.hover.stationselectorRowPWS {
+	background-color: rgb(232, 235, 245);
+}
+.selected.stationselectorRowAirport {
+	background-color: rgb(254, 241, 217);
+}
+.selected.stationselectorRowPWS {
+	background-color: rgb(254, 241, 217);
+}
+.selected.stationselectorRowAirport .stationselectorRowAirportIcon {
+	background-position: 0px -16px;
+}
+.selected.stationselectorRowPWS .stationselectorRowPWSIcon {
+	background-position: 0px -48px;
+}
+.stationselectorRowWebcam {
+	background: url("http://icons.wxug.com/i/wu/mapCams.png") no-repeat 0px 1px; width: 18px; height: 11px;
+}
+.hover.stationselectorRowWebcam {
+	background-position: 0px -11px;
+}
+.stationselectorRowWebcam img {
+	border: 0px currentColor; width: 18px; height: 11px;
+}
+.stationselectorMarkerAirport {
+	background-position: 0px -65px;
+}
+.stationselectorMarkerPWS {
+	background-position: 0px -115px;
+}
+.stationselectorMarkerAirport {
+	width: 29px; height: 25px; text-align: center; color: rgb(255, 255, 255); line-height: 22px; overflow: hidden; font-size: 11px; display: block;
+}
+.stationselectorMarkerPWS {
+	width: 29px; height: 25px; text-align: center; color: rgb(255, 255, 255); line-height: 22px; overflow: hidden; font-size: 11px; display: block;
+}
+.hover.stationselectorMarkerAirport {
+	background-position: 0px -90px;
+}
+.selected.stationselectorMarkerAirport {
+	background-position: 0px -90px;
+}
+.hover.stationselectorMarkerPWS {
+	background-position: 0px -140px;
+}
+.selected.stationselectorMarkerPWS {
+	background-position: 0px -140px;
+}
+.stationselector_footer {
+	padding: 10px; left: 0px; width: 292px; bottom: 0px; color: rgb(102, 102, 102); font-size: 11px; border-top-color: rgb(222, 222, 222); border-top-width: 1px; border-top-style: solid; position: absolute;
+}
+.stationselector_footer div {
+	margin-top: 5px;
+}
+.stationselector_prev {
+	float: right;
+}
+.stationselector_next {
+	margin-left: 18px; float: right;
+}
+.disabled.stationselector_prev {
+	color: rgb(205, 205, 205);
+}
+.disabled.stationselector_next {
+	color: rgb(205, 205, 205);
+}
+.stationselector_close {
+	background: url("http://icons.wxug.com/i/wu/mapClose.png") no-repeat; top: 10px; width: 16px; height: 16px; right: 10px; display: block; position: absolute;
+}

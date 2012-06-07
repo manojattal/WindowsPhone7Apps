@@ -1,0 +1,2421 @@
+body {
+	margin: 0px; color: rgb(51, 51, 51); font-family: sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);
+}
+a {
+	text-decoration: none; outline-style: none;
+}
+a {
+	color: rgb(33, 63, 154);
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: rgb(70, 33, 154);
+}
+h1 {
+	margin: 0px; padding: 0px; clear: both; font-size: 21px;
+}
+img {
+	border: 0px currentColor;
+}
+table {
+	border: 0px currentColor;
+}
+iframe {
+	border: 0px currentColor;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+dfn {
+	font-style: normal; border-bottom-color: rgb(51, 51, 51); border-bottom-width: 1px; border-bottom-style: dotted; cursor: help;
+}
+X.adminStuff {
+	display: none;
+}
+.stopover {
+	overflow: hidden;
+}
+.closeButton {
+	background: url("http://icons.wxug.com/i/wxmap/close.png") no-repeat right; top: -14px; width: 24px; height: 24px; right: -14px; color: rgb(0, 0, 0); line-height: 24px; font-size: 14px; font-weight: bold; text-decoration: none; float: right; display: block; position: absolute;
+}
+.du {
+	color: rgb(51, 51, 51); text-decoration: none; border-bottom-color: rgb(51, 51, 51); border-bottom-width: 1px; border-bottom-style: dotted; cursor: help;
+}
+.du:hover {
+	text-decoration: none;
+}
+.br3 {
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.br5 {
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.br10 {
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+.brTop10 {
+	border-top-left-radius: 10px; border-top-right-radius: 10px; -moz-border-radius-topright: 10px; -moz-border-radius-topleft: 10px; -webkit-border-top-right-radius: 10px; -webkit-border-top-left-radius: 10px;
+}
+.brTop5 {
+	border-top-left-radius: 5px; border-top-right-radius: 5px; -moz-border-radius-topright: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-right-radius: 5px; -webkit-border-top-left-radius: 5px;
+}
+.brBot3 {
+	border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; -moz-border-radius-bottomright: 3px; -moz-border-radius-bottomleft: 3px; -webkit-border-bottom-right-radius: 3px; -webkit-border-bottom-left-radius: 3px;
+}
+.brBot5 {
+	border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px;
+}
+.brBot10 {
+	border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; -moz-border-radius-bottomright: 10px; -moz-border-radius-bottomleft: 10px; -webkit-border-bottom-right-radius: 10px; -webkit-border-bottom-left-radius: 10px;
+}
+.brRight3 {
+	border-top-right-radius: 3px; border-bottom-right-radius: 3px; -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px; -moz-border-radius-bottomright: 3px; -webkit-border-bottom-right-radius: 3px;
+}
+.brLeft3 {
+	border-top-left-radius: 3px; border-bottom-left-radius: 3px; -moz-border-radius-topleft: 3px; -webkit-border-top-left-radius: 3px; -moz-border-radius-bottomleft: 3px; -webkit-border-bottom-left-radius: 3px;
+}
+.brRight5 {
+	border-top-right-radius: 5px; border-bottom-right-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px;
+}
+.brLeft5 {
+	border-top-left-radius: 5px; border-bottom-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px;
+}
+.brTopRight5 {
+	border-top-right-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px;
+}
+.brTopLeft3 {
+	border-top-left-radius: 3px; -moz-border-radius-topleft: 3px; -webkit-border-top-left-radius: 3px;
+}
+.brTopLeft5 {
+	border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px;
+}
+.bs225x333 {
+	box-shadow: 2px 2px 5px #333; -moz-box-shadow: 2px 2px 5px #333; -webkit-box-shadow: 2px 2px 5px #333;
+}
+.bs005xCCC {
+	box-shadow: 0px 0px 5px #ccc; -moz-box-shadow: 0 0 5px #CCC; -webkit-box-shadow: 0 0 5px #CCC;
+}
+.bs005x333 {
+	box-shadow: 0px 0px 5px #333; -moz-box-shadow: 0 0 5px #333; -webkit-box-shadow: 0 0 5px #333;
+}
+.bs0010x333 {
+	box-shadow: 0px 0px 10px #333; -moz-box-shadow: 0 0 10px #333; -webkit-box-shadow: 0 0 10px #333;
+}
+.bsDrop {
+	box-shadow: 0px 4px 8px -5px #ccc; -moz-box-shadow: 0 3px 8px -4px #CCC; -webkit-box-shadow: 0 4px 8px -5px #333;
+}
+.scroll500 {
+	height: 500px; overflow-y: scroll;
+}
+.rfToggleOff {
+	background: url("http://icons.wxug.com/i/wu/toggleOnOff.gif") no-repeat 0px -15px; width: 41px; height: 15px; overflow: hidden; display: block;
+}
+.rfToggleOn {
+	background: url("http://icons.wxug.com/i/wu/toggleOnOff.gif") no-repeat; width: 41px; height: 15px; overflow: hidden; display: block;
+}
+.liNums {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+.liNums li {
+	background: url("http://icons.wxug.com/i/wu/liNums.png") no-repeat; margin: 12px 0px 0px; padding: 0px 0px 0px 22px; height: 15px; line-height: 15px; list-style-type: none; white-space: nowrap;
+}
+.liNums li a {
+	height: 15px; line-height: 15px; display: block; white-space: nowrap;
+}
+.liNums li.liNum1 {
+	
+}
+.liNums li.liNum2 {
+	background-position: 0px -15px;
+}
+.liNums li.liNum3 {
+	background-position: 0px -30px;
+}
+.liNums li.liNum4 {
+	background-position: 0px -45px;
+}
+.liNums li.liNum5 {
+	background-position: 0px -60px;
+}
+.liNums li.liNum6 {
+	background-position: 0px -75px;
+}
+.liNums li.liNum7 {
+	background-position: 0px -90px;
+}
+.liNums li.liNum8 {
+	background-position: 0px -105px;
+}
+.liNums li.liNum9 {
+	background-position: 0px -120px;
+}
+.liNums li.liNum10 {
+	background-position: 0px -135px;
+}
+.borderBox {
+	color: rgb(51, 51, 51); overflow: hidden; margin-bottom: 12px; border-right-color: rgb(190, 190, 190); border-bottom-color: rgb(190, 190, 190); border-left-color: rgb(190, 190, 190); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; background-color: rgb(255, 255, 255);
+}
+.boxTitle {
+	height: 27px; line-height: 27px; padding-left: 10px; font-weight: bold;
+}
+.boxFooter {
+	background: url("http://icons.wxug.com/i/wu/nowBarBG.png") repeat-x top rgb(239, 239, 239); padding: 0px 10px; height: 26px; line-height: 26px; font-size: 11px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+.tooltip {
+	padding: 7px 10px; border: 2px solid rgb(255, 255, 255); width: 200px; color: rgb(255, 255, 255); font-size: 11px; z-index: 1000; background-color: rgb(0, 0, 0);
+}
+.tooltip .ttPoint {
+	background: url("http://icons.wxug.com/i/wu/tooltipPoint.png") no-repeat; width: 18px; height: 16px; bottom: -16px; position: absolute;
+}
+#wrongLoc {
+	font-size: 11px; font-style: normal; border-bottom-color: rgb(51, 51, 51); border-bottom-width: 1px; border-bottom-style: dotted; cursor: help;
+}
+#whatThis {
+	font-size: 11px; font-style: normal; border-bottom-color: rgb(51, 51, 51); border-bottom-width: 1px; border-bottom-style: dotted; cursor: help;
+}
+#wrongLoc:hover {
+	text-decoration: none;
+}
+#whatThis:hover {
+	text-decoration: none;
+}
+.switcher .swTitle {
+	color: rgb(51, 51, 51); margin-top: 8px;
+}
+.switcher .swImage {
+	margin: 6px;
+}
+.switcher .swImage .toggleOff {
+	background: url("http://icons.wxug.com/i/wu/toggleOnOff.gif") no-repeat 0px -15px; width: 41px; height: 15px; overflow: hidden; display: block;
+}
+.switcher .swImage .toggleOn {
+	background: url("http://icons.wxug.com/i/wu/toggleOnOff.gif") no-repeat; width: 41px; height: 15px; overflow: hidden; display: block;
+}
+.tabSelect {
+	background: url("http://icons.wxug.com/i/wu/condTabsBG.png") repeat-x; height: 41px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+.tabSelect .contentTabs {
+	padding: 0px 10px; height: 30px; overflow: hidden; margin-top: 11px; float: left;
+}
+.contentTabActive {
+	padding: 0px 10px; height: 29px; color: rgb(51, 51, 51); line-height: 29px; font-weight: bold; text-decoration: none; margin-right: 3px; border-top-color: rgb(190, 190, 190); border-right-color: rgb(190, 190, 190); border-left-color: rgb(190, 190, 190); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; float: left; display: block; background-color: rgb(255, 255, 255);
+}
+.contentTabActive:hover {
+	text-decoration: none;
+}
+.contentTabActive span {
+	font-weight: normal;
+}
+.contentTab {
+	padding: 0px 10px; height: 29px; color: rgb(33, 63, 154); line-height: 29px; margin-right: 3px; border-top-color: rgb(190, 190, 190); border-right-color: rgb(190, 190, 190); border-left-color: rgb(190, 190, 190); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; float: left; display: block; background-color: rgb(232, 232, 232);
+}
+.contentTab:hover {
+	background-color: rgb(255, 255, 255);
+}
+.contentTab:visited {
+	color: rgb(33, 63, 154);
+}
+.contentTabActive:visited {
+	color: rgb(51, 51, 51);
+}
+.contentData {
+	padding: 10px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+.contentFooter {
+	background: url("http://icons.wxug.com/i/wu/nowBarBG.png") repeat-x top rgb(239, 239, 239); font-size: 11px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+.contentFooterPad {
+	background: url("http://icons.wxug.com/i/wu/nowBarBG.png") repeat-x top rgb(239, 239, 239); padding: 0px 10px; height: 26px; line-height: 26px; font-size: 11px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+.contentFooter .cfTitle {
+	padding: 0px 10px; height: 26px; line-height: 26px; border-bottom-color: rgb(190, 190, 190); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.contentFooter img {
+	vertical-align: middle;
+}
+.titleTH {
+	background: url("http://icons.wxug.com/i/wu/tableHeaderBG.png") repeat-x top; padding: 0px 10px; height: 27px; text-align: left; line-height: 27px; font-size: 11px; white-space: nowrap;
+}
+.contentTable {
+	width: 100%; font-size: 11px;
+}
+.contentTable thead tr th {
+	background: url("http://icons.wxug.com/i/wu/tableHeaderBG.png") repeat-x top; padding: 0px 10px; height: 27px; text-align: left; line-height: 27px; font-weight: bold; border-bottom-color: rgb(190, 190, 190); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid; white-space: nowrap;
+}
+.contentTable thead tr th:first-child {
+	border-left-color: currentColor !important; border-left-width: 0px !important; border-left-style: none !important; border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px;
+}
+.contentTable thead tr th:last-child {
+	border-top-right-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px;
+}
+.contentTable thead tr th.taC {
+	text-align: center;
+}
+.contentTable tbody tr td {
+	padding: 7px 5px 7px 10px; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid; background-color: rgb(255, 255, 255);
+}
+.contentTable tbody tr td:first-child {
+	border-left-color: currentColor !important; border-left-width: 0px !important; border-left-style: none !important;
+}
+.contentTable tbody tr:hover td {
+	background-color: rgb(226, 232, 243);
+}
+.contentTable tbody tr.nh:hover td {
+	background-color: rgb(255, 255, 255);
+}
+.contentTable tbody tr.near td {
+	padding: 3px 10px;
+}
+.contentTable tbody tr.nob td {
+	border: 0px currentColor;
+}
+.contentTable tbody tr.gbg td {
+	background-color: rgb(224, 224, 224);
+}
+.contentTable tbody tr.gbg:hover td {
+	background-color: rgb(224, 224, 224);
+}
+.contentTable tfoot tr td {
+	padding: 7px 10px; text-align: center; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid; min-height: 27px;
+}
+.contentTable tfoot tr td.lightFooter {
+	background: url("http://icons.wxug.com/i/wu/gradDownSmall.png") repeat-x rgb(255, 255, 255);
+}
+.contentTable tfoot tr td.darkFooter {
+	background: url("http://icons.wxug.com/i/wu/nowBarBG.png") repeat-x top rgb(239, 239, 239);
+}
+.contentTable td.linkAway {
+	padding: 0px 10px;
+}
+.contentTable td.linkAway a {
+	background: url("http://icons.wxug.com/i/wu/websiteArrow.png") no-repeat center; width: 27px; height: 27px; display: block;
+}
+.infoTable {
+	width: 100%; font-size: 11px;
+}
+.infoTable td {
+	padding: 7px 10px;
+}
+.infoTable td span {
+	color: rgb(51, 51, 51);
+}
+.grt {
+	background: url("http://icons.wxug.com/i/wu/gradDownBG.png") repeat-x top;
+}
+.dtr {
+	background: url("http://icons.wxug.com/i/wu/tickDownSmall.png") no-repeat right top;
+}
+.dtl {
+	background: url("http://icons.wxug.com/i/wu/tickDownSmall.png") no-repeat left top;
+}
+.cm204 {
+	width: 202px;
+}
+.cm216 {
+	width: 214px;
+}
+.cm300 {
+	width: 298px;
+}
+.cm312 {
+	width: 310px;
+}
+.cm320 {
+	width: 318px;
+}
+.cm336 {
+	width: 334px;
+}
+.cm420 {
+	width: 418px;
+}
+.cm636 {
+	width: 634px;
+}
+.h162 {
+	height: 162px;
+}
+.h238 {
+	height: 238px;
+}
+.h252 {
+	height: 252px;
+}
+.h215 {
+	height: 215px;
+}
+.contentMod {
+	border: 1px solid rgb(190, 190, 190); background-color: rgb(255, 255, 255);
+}
+.contentMod .cmTitle {
+	background: url("http://icons.wxug.com/i/wu/cmTitleBG.png") repeat-x; height: 32px; color: rgb(165, 88, 22); line-height: 32px; padding-left: 10px; font-size: 14px; font-weight: bold; border-bottom-color: rgb(190, 190, 190); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.contentMod .cmTitle .cmToggleDown {
+	background: url("http://icons.wxug.com/i/wu/titleBarIconsClose.png") no-repeat 0px -66px; width: 33px; height: 32px; float: right; display: block;
+}
+.contentMod .cmTitle .cmToggleDown:hover {
+	background-position: 0px -99px;
+}
+.contentMod .cmTitle .cmToggleUp {
+	background: url("http://icons.wxug.com/i/wu/titleBarIconsClose.png") no-repeat 0px -132px; width: 33px; height: 32px; float: right; display: block;
+}
+.contentMod .cmTitle .cmToggleUp:hover {
+	background-position: 0px -165px;
+}
+.contentMod .cmTabs {
+	background: url("http://icons.wxug.com/i/wu/cmTabsBG.png") repeat-x; padding: 10px 10px 0px; height: 30px; border-bottom-color: rgb(223, 223, 223); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.contentMod .cmTabs .cmTabActive {
+	padding: 0px 10px; height: 29px; color: rgb(51, 51, 51); line-height: 29px; font-weight: bold; text-decoration: none; margin-right: 3px; border-top-color: rgb(190, 190, 190); border-right-color: rgb(190, 190, 190); border-left-color: rgb(190, 190, 190); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; float: left; display: block; background-color: rgb(255, 255, 255);
+}
+.contentMod .cmTabs .cmTab {
+	padding: 0px 10px; height: 29px; line-height: 29px; margin-right: 3px; border-top-color: rgb(190, 190, 190); border-right-color: rgb(190, 190, 190); border-left-color: rgb(190, 190, 190); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; float: left; display: block; background-color: rgb(232, 232, 232);
+}
+.contentMod .cmTabs .cmTab:hover {
+	background-color: rgb(255, 255, 255);
+}
+.contentMod .cmData {
+	padding: 7px 10px; font-size: 11px;
+}
+.contentMod .cmList {
+	font-size: 11px;
+}
+.contentMod .cmList .cmItem {
+	padding: 7px 10px; clear: both; border-bottom-color: rgb(223, 223, 223); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.contentMod .cmList .cmItem .cmValue {
+	float: right;
+}
+.contentMod .cmImage img {
+	width: 100%;
+}
+.contentMod .cmTable {
+	background: url("http://icons.wxug.com/i/wu/tableHeaderBG.png") repeat-x top; width: 100%; font-size: 11px;
+}
+.contentMod .cmTable thead tr th {
+	padding: 0px 10px; height: 27px; text-align: left; line-height: 27px; font-weight: bold; border-bottom-color: rgb(190, 190, 190); border-left-color: rgb(190, 190, 190); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid; white-space: nowrap;
+}
+.contentMod .cmTable thead tr th:first-child {
+	border-left-color: currentColor !important; border-left-width: 0px !important; border-left-style: none !important;
+}
+.contentMod .cmTable thead tr th.taC {
+	text-align: center;
+}
+.contentMod .cmTable tbody tr td {
+	padding: 7px 10px; overflow: hidden; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid; background-color: rgb(255, 255, 255);
+}
+.contentMod .cmTable tbody tr td:first-child {
+	border-left-color: currentColor !important; border-left-width: 0px !important; border-left-style: none !important;
+}
+.contentMod .cmTable tbody tr td.cmList {
+	padding: 0px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; background-color: rgb(255, 255, 255);
+}
+.contentMod .cmTable tbody tr.nob td {
+	border: 0px currentColor;
+}
+.contentMod .cmTable tfoot tr td {
+	height: 27px; line-height: 27px;
+}
+.contentMod .cmSource {
+	padding: 0px 10px; height: 24px; color: rgb(102, 102, 102); line-height: 24px; font-size: 10px;
+}
+.contentMod .cmFWIX {
+	background: url("http://icons.wxug.com/i/misc/logo_fwix.gif") no-repeat right;
+}
+.contentMod .cmFooter {
+	background: url("http://icons.wxug.com/i/wu/cmFooterBG.png") repeat-x top; height: 32px; text-align: center; line-height: 32px; font-size: 11px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+.contentMod .cmFooterList {
+	background: url("http://icons.wxug.com/i/wu/cmFooterBG.png") repeat-x top rgb(246, 246, 246); font-size: 11px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+.contentMod .cmFooterList ul {
+	margin: 0px; padding: 7px 10px; list-style-type: none;
+}
+.contentMod .cmFooterList ul li {
+	margin: 0px; line-height: 15px;
+}
+.contentMod .dateSelector {
+	margin: 6px 0px 2px;
+}
+.contentMod .dropSelect {
+	margin: 6px 0px; width: 75%;
+}
+.contentMod .cmInput {
+	width: 75%;
+}
+.contentMod .blogCopy {
+	font-size: 12px;
+}
+.contentMod .blogCopy #blogTitle {
+	font-size: 12px;
+}
+.contentMod .blogCopy #blogDate {
+	color: rgb(102, 102, 102);
+}
+.contentMod .blogCopy #blogPhoto {
+	margin: 12px 12px 12px 0px; border: 1px solid rgb(51, 51, 51); float: left;
+}
+.contentMod #tripForm {
+	font-size: 12px;
+}
+.ui-autocomplete {
+	margin: 0px; padding: 0px; border-right-color: rgb(190, 190, 190); border-bottom-color: rgb(190, 190, 190); border-left-color: rgb(190, 190, 190); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; list-style-type: none; position: absolute; z-index: 300 !important; cursor: default; background-color: rgb(255, 255, 255); -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px;
+}
+.ui-autocomplete-loading {
+	background: url("http://icons.wxug.com/i/loading-coda-small.gif") no-repeat right rgb(255, 255, 255) !important;
+}
+.ui-autocomplete-term {
+	font-weight: bold;
+}
+.ui-autocomplete-group {
+	margin: 6px 6px 0px; padding: 5px; border-radius: 3px; color: rgb(102, 102, 102); text-transform: capitalize; clear: both; font-size: 11px; font-weight: normal; background-color: rgb(239, 239, 239); -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.ui-autocomplete .ui-menu-item {
+	margin: 0px 6px; list-style-type: none;
+}
+.ui-autocomplete .ui-menu-item a {
+	padding: 5px; border-radius: 3px; font-size: 12px; display: block; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.ui-autocomplete .ui-menu-item a.ui-state-hover {
+	background-color: rgb(226, 232, 243);
+}
+.tablesorter th {
+	cursor: pointer;
+}
+.switch336 {
+	width: 336px; padding-bottom: 10px; float: right;
+}
+.switch336 .miniFeature300 {
+	margin: 12px; text-align: center;
+}
+.switch336 .adBox {
+	border: 1px solid rgb(213, 213, 213); width: 334px; margin-bottom: 12px; background-color: rgb(255, 255, 255);
+}
+.switch336 .adBox .adCreative {
+	text-align: center;
+}
+.switch336 .adBox .unit300x250 {
+	margin: 16px;
+}
+.switch300 {
+	width: 300px; overflow: hidden; padding-bottom: 10px; float: right;
+}
+.primeContent636 {
+	width: 636px; overflow: hidden; float: left;
+}
+.primeContent672 {
+	width: 672px; overflow: hidden; float: left;
+}
+.primeContent812 {
+	width: 812px; overflow: hidden; float: left;
+}
+.primeHeader {
+	background: url("http://icons.wxug.com/i/wu/gradDownSmall.png") repeat-x; padding: 0px 10px; height: 29px; line-height: 29px;
+}
+.primeHeader .primeLink {
+	background: url("http://icons.wxug.com/i/wu/iconViewCal.png") no-repeat; height: 17px; line-height: 17px; padding-left: 22px; font-size: 11px; margin-top: 6px; float: right; display: block;
+}
+.primeHeader .printMe {
+	background: url("http://icons.wxug.com/i/wu/iconPrint.png") no-repeat; height: 17px; line-height: 17px; padding-left: 21px; font-size: 11px; margin-top: 6px; float: right; display: block;
+}
+.primeHeader .viewArchive {
+	background: url("http://icons.wxug.com/i/wu/iconViewArchive.png") no-repeat; height: 17px; line-height: 17px; padding-left: 23px; font-size: 11px; margin-top: 6px; float: right; display: none;
+}
+.primeHeader .setAlerts {
+	background: url("http://icons.wxug.com/i/wu/iconMobileEmail.png") no-repeat; height: 19px; line-height: 19px; padding-left: 29px; font-size: 11px; margin-top: 6px; float: right; display: block;
+}
+.primeHeader .linkPage {
+	background: url("http://icons.wxug.com/i/wu/iconLink.png") no-repeat; height: 17px; line-height: 17px; padding-left: 23px; font-size: 11px; margin-top: 6px; float: right; display: block;
+}
+.primeHeader .slideShow {
+	background: url("http://icons.wxug.com/i/wu/iconSlideshow.png") no-repeat; height: 19px; line-height: 19px; padding-left: 23px; font-size: 11px; margin-top: 6px; float: right; display: block;
+}
+.primeHeader .readTerms {
+	background: url("http://icons.wxug.com/i/wu/iconDocument.png") no-repeat; height: 19px; line-height: 19px; padding-left: 23px; font-size: 11px; margin-top: 6px; float: right; display: block;
+}
+.primeHeader .myBlog {
+	background: url("http://icons.wxug.com/i/wu/iconDocument.png") no-repeat; height: 19px; line-height: 19px; padding-left: 23px; font-size: 11px; margin-top: 6px; float: right; display: block;
+}
+.primeHeader .readDoc {
+	background: url("http://icons.wxug.com/i/wu/iconDocument.png") no-repeat; height: 19px; line-height: 19px; padding-left: 23px; font-size: 11px; margin-top: 6px; float: right; display: block;
+}
+.primeHeader .savePrefs {
+	background: url("http://icons.wxug.com/i/wu/iconSave.png") no-repeat; height: 19px; line-height: 19px; padding-left: 23px; font-size: 11px; margin-top: 6px; float: right; display: block;
+}
+.iconsText {
+	padding: 10px; color: rgb(51, 51, 51); font-size: 11px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+.iconSelection {
+	background: url("http://icons.wxug.com/i/wu/iconSelectBG.png") no-repeat; width: 324px; height: 129px; overflow: hidden; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+.iconSelection a {
+	width: 64px; height: 64px; margin-bottom: 1px; float: left; display: block; background-color: rgb(255, 255, 255);
+}
+.iconSelection a img {
+	margin: 9px; border: 1px solid rgb(204, 204, 204); width: 44px; height: 44px; background-color: rgb(255, 255, 255);
+}
+.iconSelection a.iconR {
+	margin-left: 1px;
+}
+.iconSelection a.iconSelected {
+	background-color: rgb(227, 234, 245);
+}
+.iconSelection a.iconSelected img {
+	border: 1px solid rgb(33, 64, 154);
+}
+.iconSelection a:hover {
+	background-color: rgb(227, 234, 245);
+}
+.iconSelection a:hover img {
+	box-shadow: 0px 0px 5px #333; -moz-box-shadow: 0 0 5px #333; -webkit-box-shadow: 0 0 5px #333;
+}
+.iconSwitchBig {
+	border: 1px solid rgb(190, 190, 190); width: 46px; height: 46px; display: block;
+}
+.iconSwitchBig img {
+	width: 46px; height: 46px; background-color: rgb(255, 255, 255);
+}
+.iconSwitchBig:hover {
+	box-shadow: 0px 0px 5px #333; -moz-box-shadow: 0 0 5px #333; -webkit-box-shadow: 0 0 5px #333;
+}
+.iconSwitchMed {
+	border: 1px solid rgb(190, 190, 190); width: 30px; height: 30px; display: block;
+}
+.iconSwitchMed img {
+	width: 30px; height: 30px; background-color: rgb(255, 255, 255);
+}
+.iconSwitchMed:hover {
+	box-shadow: 0px 0px 5px #333; -moz-box-shadow: 0 0 5px #333; -webkit-box-shadow: 0 0 5px #333;
+}
+.iconSwitchSmall {
+	border: 1px solid rgb(190, 190, 190); width: 22px; height: 22px; display: block;
+}
+.iconSwitchSmall img {
+	width: 22px; height: 22px; background-color: rgb(255, 255, 255);
+}
+.iconSwitchSmall:hover {
+	box-shadow: 0px 0px 5px #333; -moz-box-shadow: 0 0 5px #333; -webkit-box-shadow: 0 0 5px #333;
+}
+.iconSwitchPop {
+	border-radius: 5px; border: 1px solid rgb(190, 190, 190); left: 0px; top: 0px; width: 324px; position: absolute; z-index: 200; box-shadow: 0px 0px 10px #333; background-color: rgb(255, 255, 255); -moz-border-radius: 5px; -webkit-border-radius: 5px; -moz-box-shadow: 0 0 10px #333; -webkit-box-shadow: 0 0 10px #333;
+}
+.titleIcons {
+	background: url("http://icons.wxug.com/i/wu/titleBarIcons.png") repeat-x; height: 32px; color: rgb(165, 88, 22); line-height: 32px; padding-left: 10px; font-size: 14px; font-weight: bold;
+}
+.titleIcons a {
+	background: url("http://icons.wxug.com/i/wu/titleBarIconsClose.png") no-repeat 0px 0px; width: 33px; height: 32px; float: right; display: block;
+}
+.titleIcons a:hover {
+	background-position: 0px -33px;
+}
+.titleFooter {
+	background: url("http://icons.wxug.com/i/wu/titleFooterBG.png") repeat-x; height: 32px; text-align: center; line-height: 32px; clear: both; font-size: 11px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+.titleSubtle {
+	color: rgb(102, 102, 102); font-size: 11px; font-weight: normal;
+}
+.titleSubtleBG {
+	padding: 5px; color: rgb(102, 102, 102); clear: both; font-size: 11px; font-weight: normal; margin-bottom: 10px; background-color: rgb(239, 239, 239);
+}
+.titleSubtleBig {
+	padding: 5px; color: rgb(102, 102, 102); clear: both; font-size: 12px; font-weight: normal; margin-bottom: 10px; background-color: rgb(239, 239, 239);
+}
+.titleThin {
+	background: url("http://icons.wxug.com/i/wu/titleThinBar.png") repeat-x; height: 24px; color: rgb(255, 255, 255); line-height: 24px; padding-left: 10px; font-size: 12px; font-weight: bold;
+}
+.titleThin a.titleThinShow {
+	background: url("http://icons.wxug.com/i/wu/titleThinArrows.png") no-repeat 0px 0px; width: 27px; height: 24px; float: right; display: block;
+}
+.titleThin a.titleThinShow:hover {
+	background-position: 0px -50px;
+}
+.titleThin a.titleThinHide {
+	background: url("http://icons.wxug.com/i/wu/titleThinArrows.png") no-repeat 0px -25px; width: 27px; height: 24px; float: right; display: block;
+}
+.titleThin a.titleThinHide:hover {
+	background-position: 0px -75px;
+}
+.titleThin a {
+	color: rgb(255, 255, 255);
+}
+.titleThick {
+	background: url("http://icons.wxug.com/i/wu/titleThickBar.png") repeat-x; margin: 12px 0px; height: 44px; color: rgb(255, 255, 255); line-height: 44px; padding-left: 10px; font-size: 16px; font-weight: bold;
+}
+.titleThick a.titleThickShow {
+	background: url("http://icons.wxug.com/i/wu/titleThickArrows.png") no-repeat 0px 0px; width: 44px; height: 44px; float: right; display: block;
+}
+.titleThick a.titleThickShow:hover {
+	background-position: 0px -90px;
+}
+.titleThick a.titleThickHide {
+	background: url("http://icons.wxug.com/i/wu/titleThickArrows.png") no-repeat 0px -45px; width: 44px; height: 44px; float: right; display: block;
+}
+.titleThick a.titleThickHide:hover {
+	background-position: 0px -135px;
+}
+.titleAction {
+	background: url("http://icons.wxug.com/i/wu/titleThickBar.png") repeat-x; height: 44px; color: rgb(255, 255, 255); line-height: 44px; padding-left: 10px; font-size: 16px; font-weight: bold;
+}
+.titleTable {
+	background: url("http://icons.wxug.com/i/wu/tableHeaderBG.png") repeat-x top; padding: 0px 10px; height: 27px; text-align: left; line-height: 27px; font-weight: bold; border-bottom-color: rgb(190, 190, 190); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid; white-space: nowrap;
+}
+.titlePromo {
+	padding: 0px 13px; width: 130px; height: 44px; color: rgb(255, 255, 255); line-height: 44px; font-size: 11px; font-weight: normal; border-left-color: rgb(57, 89, 168); border-left-width: 1px; border-left-style: solid; float: right; display: block;
+}
+.titlePromo:hover {
+	background: url("http://icons.wxug.com/i/wu/titlePromoBG.png") repeat-x; text-decoration: none;
+}
+.titlePromo:visited {
+	color: rgb(255, 255, 255);
+}
+.titlePromo #promoFB {
+	background: url("http://icons.wxug.com/i/wu/promoFB.png") no-repeat left; height: 44px; line-height: 44px; padding-left: 26px; display: block;
+}
+.titlePromo #promoTW {
+	background: url("http://icons.wxug.com/i/wu/promoTW.png") no-repeat left; height: 44px; line-height: 44px; padding-left: 26px; display: block;
+}
+.alertBox {
+	margin: 12px 0px; padding: 5px 10px 5px 7px; border: 1px solid rgb(204, 200, 163); background-color: rgb(252, 249, 220);
+}
+.alertBox .alertItems {
+	background: url("http://icons.wxug.com/i/wu/alertTriOrange.png") no-repeat; color: rgb(51, 51, 51); line-height: 18px; padding-left: 25px; min-height: 18px;
+}
+.alertBox .alertItems span {
+	font-weight: bold;
+}
+.alertBox .alertItems span.nobr {
+	font-weight: normal; white-space: nowrap;
+}
+.alertBox .alertItems .dismiss {
+	color: rgb(229, 102, 26);
+}
+#AdminBar {
+	color: rgb(255, 255, 255); border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(165, 46, 22);
+}
+#AdminBar tr td {
+	font-family: Arial,Helvetica,sans-serif; font-size: 11px;
+}
+#AdminBar .b {
+	padding-left: 10px;
+}
+#AdminBar a {
+	color: rgb(221, 221, 221);
+}
+#AdminBar a span {
+	color: rgb(255, 255, 255); font-weight: bold;
+}
+#AdminBar a:hover {
+	color: rgb(255, 255, 0);
+}
+#AssistBar {
+	color: rgb(255, 255, 255); border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(154, 33, 87);
+}
+#AssistBar tr td {
+	font-family: Arial,Helvetica,sans-serif; font-size: 11px;
+}
+#AssistBar .b {
+	padding-left: 10px;
+}
+#AssistBar a {
+	color: rgb(221, 221, 221);
+}
+#AssistBar a span {
+	color: rgb(255, 255, 255); font-weight: bold;
+}
+#AssistBar a:hover {
+	color: rgb(255, 255, 0);
+}
+.headerOff {
+	background: url("http://icons.wxug.com/i/wu/headerBG.png") repeat-x 0px 0px; height: 164px;
+}
+.headerOff #optionBar {
+	color: rgb(110, 110, 110);
+}
+.headerOff #optionBar a {
+	color: rgb(110, 110, 110);
+}
+.headerOver {
+	background: url("http://icons.wxug.com/i/wu/headerBG.png") repeat-x 0px -165px; height: 164px;
+}
+.headerOver #optionBar {
+	color: rgb(51, 51, 51);
+}
+.headerOver #optionBar a {
+	color: rgb(33, 63, 154);
+}
+#pageHeader #headerContent {
+	margin: 0px auto; width: 1008px; text-align: left;
+}
+#pageHeader #headerContent #optionBar {
+	width: 1008px; height: 28px; line-height: 28px; font-size: 11px; white-space: nowrap;
+}
+#optionBar {
+	height: 28px; overflow: hidden;
+}
+#optionBar #wuSites {
+	overflow: hidden; float: left;
+}
+#optionBar #wuSites a {
+	background: url("http://icons.wxug.com/i/wu/optionBarGrad.png") no-repeat right top; padding: 0px 10px; height: 28px; line-height: 28px; float: left; display: block;
+}
+#optionBar #wuSites a:hover {
+	background: rgb(187, 191, 207); padding: 0px 9px 0px 10px; margin-left: -1px; border-right-color: rgb(190, 190, 190); border-left-color: rgb(190, 190, 190); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+#optionBar #wuSites span {
+	background: url("http://icons.wxug.com/i/wu/optionBarGrad.png") no-repeat right top; padding: 0px 10px; height: 28px; line-height: 28px; float: left; display: block;
+}
+#optionBar #unitPrefs {
+	height: 28px; overflow: hidden; float: right;
+}
+#optionBar #unitPrefs #cfToggle {
+	margin: 6px 10px 0px;
+}
+#optionBar #unitPrefs .cfToggleF {
+	background: url("http://icons.wxug.com/i/wu/toggleUnits.png") no-repeat; width: 41px; height: 15px; overflow: hidden; display: block;
+}
+#optionBar #unitPrefs .cfToggleC {
+	background: url("http://icons.wxug.com/i/wu/toggleUnits.png") no-repeat 0px -16px; width: 41px; height: 15px; overflow: hidden; display: block;
+}
+#optionBar #wuLinks {
+	height: 28px;
+}
+#optionBar #wuLinks a {
+	background: url("http://icons.wxug.com/i/wu/optionBarGrad.png") no-repeat right top; padding: 0px 10px; height: 28px; line-height: 28px; overflow: hidden; float: right; display: block;
+}
+#optionBar #wuLinks a:hover {
+	background: rgb(187, 191, 207); padding: 0px 9px 0px 10px; margin-left: -1px; border-right-color: rgb(190, 190, 190); border-left-color: rgb(190, 190, 190); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+#optionBar #wuLinks #wuMailGot {
+	color: rgb(165, 46, 22); font-weight: bold;
+}
+#optionBar #wuLinks span {
+	background: url("http://icons.wxug.com/i/wu/optionBarGrad.png") no-repeat right top; height: 28px; line-height: 28px; float: right; display: block;
+}
+.headerOff #headerContent #optionBar #wuLinks #userID {
+	background: url("http://icons.wxug.com/i/wu/headIconBG.png") no-repeat -10px 0px; padding-left: 18px;
+}
+.headerOver #headerContent #optionBar #wuLinks #userID {
+	background: url("http://icons.wxug.com/i/wu/headIconBG.png") no-repeat -10px -29px; padding-left: 18px;
+}
+#quickMenuDropdown {
+	border-top-color: rgb(190, 190, 190); border-right-color: rgb(190, 190, 190); border-left-color: rgb(190, 190, 190); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; background-color: rgb(224, 224, 224);
+}
+#quickMenuDropdown ul {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#quickMenuDropdown ul li {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#quickMenuDropdown ul li a {
+	padding: 7px 10px; text-align: left; font-size: 11px; border-bottom-color: rgb(190, 190, 190); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+#quickMenuDropdown ul li a:hover {
+	background-color: rgb(187, 191, 207);
+}
+#pageHeader #logo {
+	background: url("http://icons.wxug.com/i/wu/logoBG.png") no-repeat right top; width: 169px; height: 135px; clear: both; margin-top: 1px; float: left;
+}
+#pageHeader #logo img {
+	margin: 26px 0px 0px 26px;
+}
+#navContent {
+	width: 839px; height: 135px; overflow: hidden; margin-top: 1px; float: left;
+}
+#favoritesBar {
+	width: 829px; height: 28px; padding-left: 10px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+#favoritesBar .favoritesTitle {
+	background: url("http://icons.wxug.com/i/wu/favBarStar.png") no-repeat left; height: 28px; line-height: 28px; padding-right: 10px; padding-left: 16px; font-size: 11px; border-right-color: rgb(221, 221, 221); border-right-width: 1px; border-right-style: solid; float: left; display: block;
+}
+#favoritesBar .favoritesScrollButtons {
+	background: url("http://icons.wxug.com/i/wu/favBarRightBG.png") no-repeat; top: 0px; width: 69px; right: 0px; position: absolute; z-index: 300 !important;
+}
+#favoritesBar .favoritesScrollButtons a {
+	width: 26px; height: 28px; text-align: center; line-height: 28px; text-decoration: none; float: right; display: block;
+}
+#favoritesBar .favoritesScrollButtons a.disabled {
+	color: rgb(205, 205, 205);
+}
+#favoritesBar .favoritesScrollButtons a:hover {
+	text-decoration: none;
+}
+#favoritesBar .favoritesScrollContainer {
+	height: 28px; overflow: hidden; font-size: 11px; margin-right: 58px; position: relative;
+}
+#favoritesBar .favoritesScrollContainer a {
+	background: url("http://icons.wxug.com/i/wu/tickDownSmall.png") no-repeat right top; padding: 0px 6px; height: 28px; color: rgb(51, 51, 51); line-height: 28px; clear: both; display: block;
+}
+#favoritesBar .favoritesScrollContainer a:hover {
+	border-width: 0px 1px; border-style: solid; border-color: rgb(221, 221, 221); color: rgb(33, 63, 154); padding-right: 5px; text-decoration: none; margin-left: -1px; background-image: none; background-color: rgb(235, 238, 246);
+}
+#favoritesBar .favoritesScrollContainer a:hover .favTemp {
+	color: rgb(51, 51, 51);
+}
+#favoritesBar .favoritesScrollContainer a .condIcon {
+	border: 0px currentColor; width: 22px; height: 22px; margin-bottom: 3px; vertical-align: middle;
+}
+#favoritesBar .favoritesScrollContainer .noFavs {
+	padding: 0px 10px; height: 28px; color: rgb(110, 110, 110); line-height: 28px; font-size: 11px;
+}
+#favoritesBar .favoritesScrollContainer .warnBG {
+	background-color: rgb(252, 249, 220);
+}
+#favoritesBar .favoritesScrollContainer .warnIcon {
+	width: 14px; height: 12px; margin-bottom: 4px; vertical-align: middle;
+}
+#welcome {
+	width: 829px; height: 45px; padding-left: 10px; font-size: 18px; font-weight: bold; margin-top: 30px;
+}
+#searchBox {
+	width: 829px; height: 65px; padding-left: 10px; margin-top: 10px;
+}
+#searchBox #wuSearch {
+	border-width: 1px 0px 1px 1px; border-style: solid none solid solid; border-color: rgb(190, 190, 190) currentColor rgb(190, 190, 190) rgb(190, 190, 190); width: 408px; height: 20px; line-height: 20px; font-size: 14px;
+}
+#searchBox #searchSubmit {
+	background: url("http://icons.wxug.com/i/wu/searchButtonBG.png") repeat-x; padding: 0px 10px; border: 0px currentColor; height: 24px; color: rgb(255, 255, 255); line-height: 24px; font-weight: bold; display: block;
+}
+#searchBox #searchSubmit:hover {
+	text-decoration: none;
+}
+#searchBox #recentCities {
+	color: rgb(136, 137, 137); font-size: 11px; margin-top: 10px;
+}
+#featureMenu {
+	width: 829px; height: 31px; overflow: hidden; margin-left: 10px;
+}
+#featureMenu .featureGroup {
+	margin-right: 3px; float: left;
+}
+#featureMenu .featureGroup .groupTitle {
+	background: url("http://icons.wxug.com/i/wu/tabInactiveBG.png") repeat-x; padding: 0px 10px; height: 31px; color: rgb(255, 255, 255); line-height: 31px; font-weight: bold; float: left; display: block; white-space: nowrap;
+}
+#featureMenu .featureGroup .groupTitle span {
+	background: url("http://icons.wxug.com/i/wu/tabArrowOff.png") no-repeat right; padding-right: 14px;
+}
+#featureMenu .featureGroup .groupTitle:hover {
+	background: rgb(235, 238, 246); padding: 0px 8px 0px 10px; height: 31px; color: rgb(33, 63, 154); line-height: 31px; text-decoration: none; border-top-color: rgb(190, 190, 190); border-right-color: rgb(190, 190, 190); border-left-color: rgb(190, 190, 190); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; display: block; white-space: nowrap;
+}
+#featureMenu .featureGroup .groupTitle:hover span {
+	background: url("http://icons.wxug.com/i/wu/tabArrowOver.png") no-repeat right; padding-right: 14px;
+}
+#featureMenu .activeGroup .groupTitle {
+	background: rgb(255, 255, 255); padding: 0px 8px 0px 10px; height: 31px; color: rgb(33, 63, 154); line-height: 31px; border-top-color: rgb(190, 190, 190); border-right-color: rgb(190, 190, 190); border-left-color: rgb(190, 190, 190); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; display: block; white-space: nowrap;
+}
+#featureMenu .activeGroup .groupTitle span {
+	background: url("http://icons.wxug.com/i/wu/tabArrowOn.png") no-repeat right; padding-right: 14px;
+}
+#featureMenu .featureGroup .fullList {
+	width: 118px; overflow: hidden; clear: both; margin-top: 30px; border-right-color: rgb(190, 190, 190); border-bottom-color: rgb(190, 190, 190); border-left-color: rgb(190, 190, 190); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; display: block; white-space: nowrap; background-color: rgb(255, 255, 255);
+}
+#featureMenu .featureGroup .fullList ul {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#featureMenu .featureGroup .fullList ul li {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#featureMenu .featureGroup .fullList ul li a {
+	padding: 0px 10px; height: 28px; color: rgb(33, 63, 154); line-height: 28px; font-size: 11px; text-decoration: none; border-top-color: rgb(219, 218, 218); border-top-width: 1px; border-top-style: solid; display: block; white-space: nowrap;
+}
+#featureMenu .featureGroup .fullList ul li a:hover {
+	color: rgb(33, 63, 154); background-color: rgb(235, 238, 246);
+}
+#featureMenu .featureGroup .g1 {
+	min-width: 116px;
+}
+#featureMenu .featureGroup .g2 {
+	min-width: 114px;
+}
+#featureMenu .featureGroup .g3 {
+	min-width: 124px;
+}
+#featureMenu .featureGroup .g4 {
+	min-width: 123px;
+}
+#featureMenu .featureGroup .g5 {
+	min-width: 67px;
+}
+#featureMenu .featureGroup .g6 {
+	min-width: 137px;
+}
+#featureMenu .featureGroup .g7 {
+	min-width: 96px;
+}
+#featureMenu .featureGroup .menuHide {
+	display: none;
+}
+#featureMenu .featureGroup .menuShow {
+	left: auto; display: block; position: absolute; z-index: 2147483647 !important;
+}
+#wuPageSkin {
+	padding: 0px 10px; width: 984px; text-align: left; overflow: hidden; clear: both; background-color: rgb(255, 255, 255);
+}
+#wuPage984 {
+	width: 984px; text-align: left; overflow: hidden; clear: both;
+}
+#wuPage984 #innerContent {
+	text-align: left; margin-top: 20px;
+}
+#hpSearch {
+	margin: 12px 0px 0px; width: 636px;
+}
+#hpSearch #title {
+	background: url("http://icons.wxug.com/i/wu/titleThickBar.png") repeat-x; height: 44px; color: rgb(255, 255, 255); line-height: 44px; padding-left: 10px; font-size: 16px; font-weight: bold;
+}
+#hpSearch #searchArea {
+	background: url("http://icons.wxug.com/i/wu/nowBarBG.png") repeat-x top rgb(239, 239, 239); border-width: 1px; border-style: solid; border-color: rgb(190, 190, 190) rgb(46, 82, 171);
+}
+#hpSearch #searchFields {
+	padding: 12px 0px; color: rgb(51, 51, 51);
+}
+#hpSearch #searchFields table {
+	margin-left: 60px;
+}
+#hpSearch #searchFields tr td {
+	padding: 2px 6px; font-size: 11px;
+}
+#hpSearch #searchFields tr:first-child td {
+	font-size: 14px;
+}
+#hpSearch #searchFields tr td span {
+	color: rgb(102, 102, 102); font-size: 10px; font-weight: normal;
+}
+#hpSearch #searchFields tr td span a {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+#hpSearch #searchFields #wuSearch {
+	border: 1px solid rgb(59, 77, 169); width: 300px; height: 29px; padding-left: 12px; font-size: 14px;
+}
+#hpSearch #searchFields #searchSubmit {
+	background: url("http://icons.wxug.com/i/w/wu3_SubmitBg.png") repeat-x; border: 1px solid rgb(59, 77, 169); width: 72px; height: 31px; color: rgb(255, 255, 255); font-size: 14px;
+}
+#hpSearch #geoBox {
+	padding: 24px 24px 0px; border-right-color: rgb(46, 82, 171); border-bottom-color: rgb(46, 82, 171); border-left-color: rgb(46, 82, 171); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;
+}
+#hpSearch #geoBox .local#geoData {
+	border: 3px solid rgb(255, 255, 255); color: rgb(102, 102, 102); background-color: rgb(241, 241, 241);
+}
+#hpSearch #geoBox #geoData table.full {
+	border-top-color: rgb(255, 255, 255); border-top-width: 3px; border-top-style: solid;
+}
+#hpSearch #geoBox #geoData #condTable {
+	font-size: 13px;
+}
+#hpSearch #geoBox #geoData #condTable tr td:first-child div {
+	width: 130px; text-align: right;
+}
+#hpSearch #geoBox #geoData #condTable div.textData {
+	margin-top: 5px;
+}
+#hpSearch #geoBox #geoData #condTable a.moreData {
+	width: 120px; text-align: center; line-height: 15px; font-size: 11px; display: block;
+}
+#hpSearch #geoBox #geoData #locTable {
+	margin: 5px; font-size: 11px;
+}
+#hpSearch #geoBox #geoData #pwsTable {
+	margin: 5px; font-size: 11px;
+}
+#hpSearch #geoBox #geoData .pt {
+	padding-top: 3px;
+}
+#hpSearch #geoBox #geoData .pb {
+	padding-bottom: 3px;
+}
+#hpSearch #geoBox #geoData .div {
+	color: rgb(204, 204, 204);
+}
+#hpSearch #geoBox #geoData #bigStory {
+	font-size: 12px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 3px; border-bottom-style: solid;
+}
+#hpSearch #geoBox #geoData #bigStory #bigTitle {
+	color: rgb(165, 46, 22); font-size: 14px; font-weight: bold;
+}
+#hpSearch #geoBox #geoData #bigStory #bigDismiss {
+	float: right; display: none;
+}
+#hpSearch #geoBox #geoData #bigStory #bigImage img {
+	height: 60px;
+}
+#hpSearch #geoBox #picCred {
+	margin: 12px 0px; width: 26px; height: 26px; line-height: 26px; font-size: 10px; display: block;
+}
+#hpSearch #geoBox #picCred #creditIcon {
+	background: url("http://icons.wxug.com/i/wu/creditI.png") no-repeat 6px 6px; width: 26px; height: 26px; display: block;
+}
+#hpSearch #geoBox #picCred #creditText {
+	display: none;
+}
+#hpSearch #geoBox #picCred:hover {
+	background: url("http://icons.wxug.com/i/wu/creditBG.png") repeat-x; width: 190px; height: 26px; line-height: 26px; font-size: 10px; text-decoration: none; display: block;
+}
+#hpSearch #geoBox #picCred:hover #creditIcon {
+	display: none;
+}
+#hpSearch #geoBox #picCred:hover #creditText {
+	background: url("http://icons.wxug.com/i/wu/creditI.png") no-repeat 6px 6px; padding-left: 26px; display: block;
+}
+#hpSearch #geoBox #picCred:hover #creditText span {
+	color: rgb(51, 51, 51);
+}
+#preFooter {
+	height: 48px; clear: both;
+}
+#footer {
+	background: url("http://icons.wxug.com/i/w/wu3_FooterSepBg.gif") repeat-x top rgb(247, 247, 247); width: 100%; clear: both;
+}
+#footer #footerContents {
+	margin: 0px auto; width: 1008px; overflow: hidden;
+}
+#footer a {
+	color: rgb(51, 51, 153);
+}
+#footer #subNav {
+	width: 1008px; overflow: hidden;
+}
+#footer #subNav ul {
+	margin: 12px 0px 12px 12px; padding: 0px; width: 130px; overflow: hidden; float: left; list-style-type: none;
+}
+#footer #subNav ul.rb {
+	background: url("http://icons.wxug.com/i/w/wu3_SubnavBg.png") no-repeat right top;
+}
+#footer #subNav ul li {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#footer #subNav ul li a {
+	line-height: 16px; font-size: 12px;
+}
+#footer #goodies {
+	background: url("http://icons.wxug.com/i/w/wu3_FooterSepBg.gif") repeat-x rgb(247, 247, 247); color: rgb(51, 51, 51); clear: both;
+}
+#footer #goodies ul {
+	margin: 20px 0px 0px; padding: 0px; list-style-type: none;
+}
+#footer #goodies ul li {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#footer #goodies #actions {
+	width: 432px; height: 180px; float: left;
+}
+#footer #goodies #actions a {
+	margin: 12px 0px 0px 12px; border: 1px solid rgb(204, 204, 204); width: 190px; height: 46px; font-size: 14px; font-weight: bold; float: left; display: block; background-color: rgb(255, 255, 255);
+}
+#footer #goodies #actions a img {
+	margin-right: 5px;
+}
+#footer #goodies #service {
+	padding: 12px; width: 260px; height: 180px; float: left;
+}
+#footer #goodies #adsales {
+	padding: 12px; width: 260px; height: 180px; float: left;
+}
+#footer #signoff {
+	clear: both; font-size: 11px; border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: solid; background-color: rgb(247, 247, 247);
+}
+#footer #signoff table {
+	width: 984px;
+}
+#footer #signoff #copyright {
+	padding: 4px 0px 12px 12px; color: rgb(153, 153, 153);
+}
+#footer #signoff #moreInfo {
+	padding: 4px 12px 12px 0px; text-align: right;
+}
+#photostrip {
+	width: 202px; height: 252px; overflow: hidden; position: relative;
+}
+#photostrip .wrapper {
+	width: 202px; height: 150px; overflow: hidden;
+}
+#photostrip .wrapper .inner {
+	width: 4000px; height: 150px; overflow: hidden;
+}
+#photostrip .wrapper .inner .elt {
+	width: 202px; height: 150px; overflow: hidden; float: left;
+}
+#photostrip .wrapper .inner .elt img.fitHeight {
+	height: 150px;
+}
+#photostrip .wrapper .inner .elt img.fitWidth {
+	width: 202px;
+}
+#photostrip .prev {
+	left: 0px; top: 0px; position: absolute;
+}
+#photostrip .next {
+	top: 0px; right: 0px; position: absolute;
+}
+#photostrip .photoData {
+	border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+#photostrip .photoData .dots {
+	text-align: center; font-size: 20px;
+}
+#photostrip .photoData .dots span.active {
+	color: rgb(100, 117, 186);
+}
+#photostrip .photoData .dots span.inactive {
+	color: rgb(213, 213, 213);
+}
+#photostrip .photoBy {
+	background: url("http://icons.wxug.com/i/wu/userIconW.png") no-repeat; margin: 0px 12px; height: 14px; line-height: 14px; padding-left: 20px; font-size: 10px;
+}
+#photostrip .photoNum {
+	margin: 17px 12px 0px; font-size: 12px; font-weight: bold;
+}
+#photostrip .photoUp {
+	background: url("http://icons.wxug.com/i/wu/uploadIcon.png") no-repeat; margin: 6px 12px 0px; height: 14px; line-height: 14px; padding-left: 20px; font-size: 12px;
+}
+#photoTower {
+	border: 1px solid rgb(153, 153, 153); width: 334px; height: 120px; overflow: hidden; position: relative;
+}
+#photoTower #photoImage {
+	width: 334px; height: 100px; overflow: hidden;
+}
+#photoTower #photoImage img {
+	width: 334px;
+}
+#photoTower #photoLinks {
+	left: 0px; width: 100%; height: 20px; bottom: 0px; color: rgb(102, 102, 102); line-height: 20px; padding-left: 3px; font-size: 11px; border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid; position: absolute; background-color: rgb(247, 247, 247);
+}
+#weatherSummary #talkingHead {
+	border: 1px solid rgb(51, 51, 51); width: 80px; height: 107px; display: block;
+}
+#weatherSummary #short_discussion {
+	height: 120px; overflow: hidden;
+}
+.genTable {
+	width: 100%; font-size: 11px;
+}
+.genTable th {
+	padding: 5px; font-weight: normal;
+}
+.genTable td {
+	padding: 5px;
+}
+.aqIndex {
+	background: url("http://icons.wxug.com/i/wu/airQualityMeter.png") no-repeat; width: 34px; height: 8px; margin-top: 2px;
+}
+.aq1 {
+	
+}
+.aq2 {
+	background-position: 0px -9px;
+}
+.aq3 {
+	background-position: 0px -18px;
+}
+.aq4 {
+	background-position: 0px -27px;
+}
+.aq5 {
+	background-position: 0px -36px;
+}
+.aq6 {
+	background-position: 0px -45px;
+}
+#historyTable {
+	width: 100%; font-size: 11px;
+}
+#historyTable th {
+	padding: 5px; font-weight: normal;
+}
+#historyTable td {
+	padding: 5px;
+}
+#historyTable .typeBG {
+	padding: 5px; color: rgb(102, 102, 102); font-size: 11px; font-weight: normal; background-color: rgb(239, 239, 239);
+}
+#moonTable {
+	width: 100%;
+}
+#moonTable #phaseSummary {
+	padding: 10px; font-size: 11px;
+}
+#moonTable .phaseText {
+	background: url("http://icons.wxug.com/i/wu/gradDownBG.png") repeat-x top rgb(255, 255, 255); padding: 7px 10px; width: 20%; vertical-align: top;
+}
+#moonTable .phaseText .phaseDay {
+	color: rgb(102, 102, 102); font-size: 10px;
+}
+#moonTable .phaseText .phaseName {
+	font-size: 10px; margin-top: 7px;
+}
+#moonTable .phaseIcon {
+	width: 20%; text-align: center; padding-bottom: 7px;
+}
+#moonTable .phaseIcon div {
+	margin: 0px auto; width: 25px; height: 25px; background-image: url("http://icons.wxug.com/i/wu/moonPhases.png"); background-repeat: no-repeat;
+}
+#moonTable .moonNorth .moon0 {
+	
+}
+#moonTable .moonNorth .moon1 {
+	background-position: -25px 0px;
+}
+#moonTable .moonNorth .moon2 {
+	background-position: -50px 0px;
+}
+#moonTable .moonNorth .moon3 {
+	background-position: -75px 0px;
+}
+#moonTable .moonNorth .moon4 {
+	background-position: -100px 0px;
+}
+#moonTable .moonNorth .moon5 {
+	background-position: -125px 0px;
+}
+#moonTable .moonNorth .moon6 {
+	background-position: -150px 0px;
+}
+#moonTable .moonNorth .moon7 {
+	background-position: -175px 0px;
+}
+#moonTable .moonNorth .moon8 {
+	background-position: -200px 0px;
+}
+#moonTable .moonNorth .moon9 {
+	background-position: -225px 0px;
+}
+#moonTable .moonNorth .moon10 {
+	background-position: -250px 0px;
+}
+#moonTable .moonNorth .moon11 {
+	background-position: -275px 0px;
+}
+#moonTable .moonNorth .moon12 {
+	background-position: -300px 0px;
+}
+#moonTable .moonNorth .moon13 {
+	background-position: -325px 0px;
+}
+#moonTable .moonNorth .moon14 {
+	background-position: -350px 0px;
+}
+#moonTable .moonNorth .moon15 {
+	background-position: -375px 0px;
+}
+#moonTable .moonNorth .moon16 {
+	background-position: -400px 0px;
+}
+#moonTable .moonNorth .moon17 {
+	background-position: -425px 0px;
+}
+#moonTable .moonNorth .moon18 {
+	background-position: -450px 0px;
+}
+#moonTable .moonNorth .moon19 {
+	background-position: -475px 0px;
+}
+#moonTable .moonNorth .moon20 {
+	background-position: -500px 0px;
+}
+#moonTable .moonNorth .moon21 {
+	background-position: -525px 0px;
+}
+#moonTable .moonNorth .moon22 {
+	background-position: -550px 0px;
+}
+#moonTable .moonNorth .moon23 {
+	background-position: -575px 0px;
+}
+#moonTable .moonNorth .moon24 {
+	background-position: -600px 0px;
+}
+#moonTable .moonNorth .moon25 {
+	background-position: -625px 0px;
+}
+#moonTable .moonNorth .moon26 {
+	background-position: -650px 0px;
+}
+#moonTable .moonNorth .moon27 {
+	background-position: -675px 0px;
+}
+#moonTable .moonNorth .moon28 {
+	background-position: -700px 0px;
+}
+#moonTable .moonNorth .moon29 {
+	background-position: -725px 0px;
+}
+#moonTable .moonNorth .moon30 {
+	background-position: -750px 0px;
+}
+#moonTable .moonSouth .moon0 {
+	background-position: 0px -25px;
+}
+#moonTable .moonSouth .moon1 {
+	background-position: -25px -25px;
+}
+#moonTable .moonSouth .moon2 {
+	background-position: -50px -25px;
+}
+#moonTable .moonSouth .moon3 {
+	background-position: -75px -25px;
+}
+#moonTable .moonSouth .moon4 {
+	background-position: -100px -25px;
+}
+#moonTable .moonSouth .moon5 {
+	background-position: -125px -25px;
+}
+#moonTable .moonSouth .moon6 {
+	background-position: -150px -25px;
+}
+#moonTable .moonSouth .moon7 {
+	background-position: -175px -25px;
+}
+#moonTable .moonSouth .moon8 {
+	background-position: -200px -25px;
+}
+#moonTable .moonSouth .moon9 {
+	background-position: -225px -25px;
+}
+#moonTable .moonSouth .moon10 {
+	background-position: -250px -25px;
+}
+#moonTable .moonSouth .moon11 {
+	background-position: -275px -25px;
+}
+#moonTable .moonSouth .moon12 {
+	background-position: -300px -25px;
+}
+#moonTable .moonSouth .moon13 {
+	background-position: -325px -25px;
+}
+#moonTable .moonSouth .moon14 {
+	background-position: -350px -25px;
+}
+#moonTable .moonSouth .moon15 {
+	background-position: -375px -25px;
+}
+#moonTable .moonSouth .moon16 {
+	background-position: -400px -25px;
+}
+#moonTable .moonSouth .moon17 {
+	background-position: -425px -25px;
+}
+#moonTable .moonSouth .moon18 {
+	background-position: -450px -25px;
+}
+#moonTable .moonSouth .moon19 {
+	background-position: -475px -25px;
+}
+#moonTable .moonSouth .moon20 {
+	background-position: -500px -25px;
+}
+#moonTable .moonSouth .moon21 {
+	background-position: -525px -25px;
+}
+#moonTable .moonSouth .moon22 {
+	background-position: -550px -25px;
+}
+#moonTable .moonSouth .moon23 {
+	background-position: -575px -25px;
+}
+#moonTable .moonSouth .moon24 {
+	background-position: -600px -25px;
+}
+#moonTable .moonSouth .moon25 {
+	background-position: -625px -25px;
+}
+#moonTable .moonSouth .moon26 {
+	background-position: -650px -25px;
+}
+#moonTable .moonSouth .moon27 {
+	background-position: -675px -25px;
+}
+#moonTable .moonSouth .moon28 {
+	background-position: -700px -25px;
+}
+#moonTable .moonSouth .moon29 {
+	background-position: -725px -25px;
+}
+#moonTable .moonSouth .moon30 {
+	background-position: -750px -25px;
+}
+#severeKey table {
+	margin: 2px 0px 2px 5px; width: 196px; float: left;
+}
+#severeKey table td.keyIcon {
+	width: 15px;
+}
+#severeKey table td.keyText {
+	width: 170px; color: rgb(102, 102, 102); padding-left: 6px; font-size: 12px;
+}
+#severeKey table.active td.keyText dfn {
+	color: rgb(51, 51, 51); font-weight: bold; text-decoration: none;
+}
+#editFavs #log {
+	margin: 10px 0px; width: 100%; height: 18px; text-align: center; color: rgb(255, 0, 0); line-height: 18px;
+}
+#editFavs #searchAjaxLoading {
+	width: 250px;
+}
+#editFavs .ajax-loading {
+	background: url("http://icons.wxug.com/graphics/wu2/ajax-loading.gif") no-repeat right;
+}
+#editFavs .addButton {
+	color: rgb(0, 0, 255); text-decoration: underline; cursor: pointer;
+}
+#editFavs .deleteButton {
+	background: url("http://icons.wxug.com/graphics/wu2/favsBarRemove.png") no-repeat; width: 60px; height: 18px; margin-right: 5px; float: right; cursor: pointer;
+}
+#editFavs #favoritesSearchForm {
+	margin: 10px;
+}
+#editFavs #favoritesSearchResults {
+	margin: 0px 10px 10px;
+}
+#editFavs #favoritesSearchResults ul {
+	margin: 10px 0px 0px;
+}
+#editFavs #favoritesSearchResults ul li {
+	margin: 0px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted; list-style-type: none;
+}
+#editFavs #favoritesSearchResults ul li div {
+	background-color: rgb(255, 255, 255);
+}
+#editFavs #favoritesSearchResults ul li div a {
+	padding: 3px 0px; width: 100%; display: block;
+}
+#editFavs #favoritesSearchResults ul li div.addButton {
+	background: url("http://icons.wxug.com/graphics/wu2/favsBarSave.png") no-repeat right;
+}
+#editFavs #favoritesSearchResults ul li div.addButton:hover {
+	background: url("http://icons.wxug.com/graphics/wu2/favsBarSaveOver.png") no-repeat right rgb(245, 245, 245);
+}
+#editFavs #favorites-list {
+	margin: 10px 0px 0px; padding: 0px; border-top-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: solid;
+}
+#editFavs #favorites-list li {
+	background: url("http://icons.wxug.com/graphics/wu2/favsBar.png") no-repeat left top; margin: 0px; padding: 0px; height: 36px; clear: both; border-right-color: rgb(153, 153, 153); border-bottom-color: rgb(153, 153, 153); border-left-color: rgb(238, 238, 238); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; list-style-type: none; min-height: 36px;
+}
+#editFavs #favorites-list li .drag-handle {
+	width: 100%; float: left; display: block; min-height: 36px;
+}
+#editFavs #favorites-list li .drag-handle a {
+	text-decoration: none; cursor: move !important;
+}
+#editFavs #favorites-list li .drag-handle a:hover {
+	text-decoration: underline;
+}
+#editFavs #favorites-list li .drag-handle .favCity {
+	color: rgb(23, 44, 108); line-height: 20px; padding-left: 36px; font-weight: bold;
+}
+#editFavs #favorites-list li .drag-handle .favConds {
+	padding-left: 36px;
+}
+#editFavs #favorites-list li .drag-handle .favUpdated {
+	border: 0px solid rgb(0, 0, 255); float: right;
+}
+#editFavs .favMove {
+	background: url("http://icons.wxug.com/graphics/wu2/favsBarMove.png") no-repeat left !important;
+}
+#editFavs .favCursorMove {
+	cursor: move;
+}
+#page {
+	width: 100%; height: 600px; position: relative; z-index: 0;
+}
+#map {
+	height: 100%; position: relative; z-index: 0;
+}
+#gMapSide {
+	border: 1px solid rgb(204, 204, 204); width: 290px; height: 330px; overflow: hidden; margin-top: 5px;
+}
+#dlList {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#dlList li {
+	padding: 5px; clear: both; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; list-style-type: none; min-height: 100px;
+}
+#dlList li .dlIcon {
+	margin: 5px; float: left;
+}
+.mapPlay {
+	height: 15px; line-height: 15px; padding-left: 25px; font-size: 11px; display: block;
+}
+.mapStop {
+	height: 15px; line-height: 15px; padding-left: 25px; font-size: 11px; display: block;
+}
+.mapPlay {
+	background: url("http://icons.wxug.com/i/wu/radarAnimate.png") no-repeat 0px 0px;
+}
+.mapStop {
+	background: url("http://icons.wxug.com/i/wu/radarAnimate.png") no-repeat 0px -16px;
+}
+.viscategory {
+	background: url("http://icons.wxug.com/i/wu/xBG.png") no-repeat right rgb(62, 103, 177); padding: 3px 20px 3px 3px; border-radius: 3px; border: 1px solid rgb(33, 63, 154); color: rgb(255, 255, 255); line-height: 25px; white-space: nowrap; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.catCall {
+	line-height: 30px; margin-top: 20px;
+}
+.catIndex {
+	line-height: 30px; margin-top: 10px; margin-bottom: 10px;
+}
+#socialBar #postWeather {
+	margin: 4px 4px 0px 6px; white-space: nowrap;
+}
+#socialBar td {
+	vertical-align: middle;
+}
+#socialBar td.full {
+	padding-left: 5px;
+}
+#searchDates #dateBegin {
+	height: 20px; position: relative; background-color: rgb(255, 255, 255);
+}
+#searchDates #dateEnd {
+	height: 20px; position: relative; background-color: rgb(255, 255, 255);
+}
+#searchDates #dateBegin input.grey {
+	color: rgb(153, 153, 153); cursor: default;
+}
+#searchDates #dateEnd input.grey {
+	color: rgb(153, 153, 153); cursor: default;
+}
+#tripSearch #searchDates #dateBegin input {
+	border: 0px currentColor; width: 120px; height: 18px; text-align: right; color: rgb(33, 63, 154); margin-right: 28px; cursor: pointer; background-color: rgb(255, 255, 255);
+}
+#tripSearch #searchDates #dateEnd input {
+	border: 0px currentColor; width: 120px; height: 18px; text-align: right; color: rgb(33, 63, 154); margin-right: 28px; cursor: pointer; background-color: rgb(255, 255, 255);
+}
+#trip_panel_0 #searchDates #dateBegin input {
+	border: 0px currentColor; width: 75px; height: 18px; text-align: left; color: rgb(33, 63, 154); font-size: 10px; cursor: pointer; background-color: rgb(255, 255, 255);
+}
+#trip_panel_0 #searchDates #dateEnd input {
+	border: 0px currentColor; width: 75px; height: 18px; text-align: left; color: rgb(33, 63, 154); font-size: 10px; cursor: pointer; background-color: rgb(255, 255, 255);
+}
+#trip_panel_0 #destSearch {
+	width: 168px;
+}
+#trip_panel_0 #destActivity {
+	width: 168px;
+}
+.ui-datepicker-trigger {
+	background: url("http://icons.wxug.com/i/wu/calIcons.png") no-repeat 0px -18px; margin: 0px; padding: 0px; border: 0px currentColor; top: 1px; width: 18px; height: 18px; right: 0px; overflow: hidden; display: inline; position: absolute; cursor: pointer;
+}
+.calIconGrey {
+	background: url("http://icons.wxug.com/i/wu/calIcons.png") no-repeat 0px 0px; margin: 0px; padding: 0px; border: 0px currentColor; top: 1px; width: 18px; height: 18px; right: 0px; overflow: hidden; display: inline; position: absolute; cursor: default;
+}
+.calIconBlack {
+	background: url("http://icons.wxug.com/i/wu/calIcons.png") no-repeat 0px -18px; margin: 0px; padding: 0px; border: 0px currentColor; top: 1px; width: 18px; height: 18px; right: 0px; overflow: hidden; display: inline; position: absolute; cursor: pointer;
+}
+.ui-datepicker {
+	border-radius: 5px; border: 1px solid rgb(190, 190, 190); width: 202px; background-color: rgb(255, 255, 255); -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.ui-datepicker .ui-state-disabled {
+	color: rgb(153, 153, 153);
+}
+.ui-datepicker .ui-datepicker-header {
+	background: url("http://icons.wxug.com/i/wu/cmTitleBG.png") repeat-x; height: 32px; line-height: 32px; border-bottom-color: rgb(190, 190, 190); border-bottom-width: 1px; border-bottom-style: solid; border-top-left-radius: 5px; border-top-right-radius: 5px; -moz-border-radius-topright: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-right-radius: 5px; -webkit-border-top-left-radius: 5px;
+}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-prev {
+	font-size: 11px; margin-left: 10px; float: left;
+}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-next {
+	font-size: 11px; margin-right: 10px; float: right;
+}
+.ui-datepicker .ui-datepicker-header .ui-datepicker-title {
+	text-align: center; color: rgb(165, 88, 22); font-size: 14px; font-weight: bold;
+}
+.ui-datepicker table {
+	background: url("http://icons.wxug.com/i/wu/tableHeaderBG.png") repeat-x top; width: 100%; clear: both; font-size: 10px; font-weight: bold; border-collapse: collapse; border-spacing: 0;
+}
+.ui-datepicker table thead tr th {
+	padding: 0px; height: 27px; text-align: center; line-height: 27px; font-weight: bold; border-bottom-color: rgb(190, 190, 190); border-left-color: rgb(190, 190, 190); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid; white-space: nowrap;
+}
+.ui-datepicker table thead tr th:first-child {
+	border-left-color: currentColor !important; border-left-width: 0px !important; border-left-style: none !important;
+}
+.ui-datepicker table thead tr th.taC {
+	text-align: center;
+}
+.ui-datepicker table thead tr th a:hover {
+	text-decoration: none;
+}
+.ui-datepicker table tbody tr td {
+	padding: 7px 0px; text-align: center; overflow: hidden; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(190, 190, 190); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid; background-color: rgb(255, 255, 255);
+}
+.ui-datepicker table tbody tr td:first-child {
+	border-left-color: currentColor !important; border-left-width: 0px !important; border-left-style: none !important;
+}
+.ui-datepicker table tbody tr td.cmList {
+	padding: 0px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; background-color: rgb(255, 255, 255);
+}
+.ui-datepicker table tbody tr.nob td {
+	border: 0px currentColor;
+}
+#tagSelect {
+	height: 25px; margin-top: 5px; position: relative;
+}
+#tagSelect input {
+	padding: 0px 5px; border: 1px solid rgb(190, 190, 190); width: 200px; height: 23px; line-height: 23px;
+}
+#tagSelect button.selectbutton {
+	background: url("http://icons.wxug.com/i/wu/nowBarArrows.png") no-repeat -2px -3px; padding: 0px; border: 1px solid rgb(190, 190, 190); left: 209px; top: 0px; width: 27px; height: 25px !important; line-height: 25px; margin-right: 5px; position: absolute;
+}
+#tagSelect button.selectbutton:hover {
+	background-position: -2px -33px;
+}
+#tagSelect button.catbutton {
+	left: 250px; top: 5px; position: absolute;
+}
+.tidesTableHead {
+	width: 100%; text-align: center; color: rgb(204, 204, 204); font-size: 10px;
+}
+.tidesTableHead tbody tr td {
+	background: url("http://icons.wxug.com/i/wu/marinetides_dashes.png") repeat-x top; width: 12.5%; height: 27px; line-height: 27px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid;
+}
+.tidesTableHead tbody tr td:first-child {
+	border-left-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid;
+}
+.tidesTable {
+	width: 100%; font-size: 11px;
+}
+.tidesTable tbody tr td {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tidesDivider {
+	padding: 0px 3px; height: 36px; font-size: 8px; border-left-color: rgb(107, 215, 246); border-left-width: 1px; border-left-style: dashed; position: absolute;
+}
+.tidesDividerFlipped {
+	padding: 0px 3px; height: 36px; text-align: right; font-size: 8px; border-right-color: rgb(107, 215, 246); border-right-width: 1px; border-right-style: dashed; position: absolute;
+}
+.imgFix {
+	margin: 0px 0px -3px;
+}
+.pad710 {
+	padding: 7px 10px;
+}
+.showArchive select {
+	width: 100%;
+}
+.showImageContainer {
+	border: 1px solid rgb(213, 213, 213); float: left;
+}
+.showImageContainer img {
+	padding: 7px 7px 5px;
+}
+.showDescription {
+	padding: 0px 0px 10px 10px; overflow: hidden;
+}
+#opinionBox {
+	padding: 10px; border: 1px solid rgb(190, 190, 190); width: 454px; height: 165px;
+}
+#opinionBox #imgBox {
+	width: 100%;
+}
+#opinionBox #imgBox img {
+	padding-bottom: 5px;
+}
+#opinionBox #textBox {
+	width: 100%; height: 24px; border-bottom-color: rgb(190, 190, 190); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.sticker {
+	padding: 15px; border: 1px solid rgb(128, 128, 128); text-decoration: none; margin-right: 13px; margin-bottom: 13px; float: left; display: block;
+}
+.sticker img {
+	margin-top: 3px; box-shadow: 0px 0px 5px #333; -moz-box-shadow: 0 0 5px #333; -webkit-box-shadow: 0 0 5px #333;
+}
+.sticker_style a {
+	padding: 5px; border: 1px solid rgb(187, 187, 187); text-decoration: none; margin-top: 5px; margin-right: 5px; float: left; display: block;
+}
+.sticker_style a img {
+	width: 36px; height: 36px; box-shadow: 0px 0px 5px #333; -moz-box-shadow: 0 0 5px #333; -webkit-box-shadow: 0 0 5px #333;
+}
+.sticker_style a:hover {
+	background-color: rgb(221, 221, 221);
+}
+.sticker_style_selected a {
+	padding: 5px; border: 1px solid rgb(204, 200, 163); text-decoration: none; margin-top: 5px; margin-right: 5px; float: left; display: block; background-color: rgb(252, 249, 220);
+}
+.sticker_style_selected a img {
+	width: 36px; height: 36px; box-shadow: 0px 0px 5px #333; -moz-box-shadow: 0 0 5px #333; -webkit-box-shadow: 0 0 5px #333;
+}
+.popup_sticker img {
+	box-shadow: 0px 0px 5px #333; -moz-box-shadow: 0 0 5px #333; -webkit-box-shadow: 0 0 5px #333;
+}
+#sticker_preview {
+	padding: 0px; width: 450px; overflow: auto; position: absolute;
+}
+#sticker_preview #final_html {
+	margin: 0px; width: 95%; height: 6.5em; font-size: 0.9em;
+}
+#iframe_preview {
+	padding: 0px; width: 450px; overflow: auto; position: absolute;
+}
+#iframe_preview #iframe_html {
+	margin: 0px; width: 95%; height: 6.5em; font-size: 0.9em;
+}
+#sticker_list {
+	width: 616px;
+}
+#iframe_sticker_list {
+	width: 616px;
+}
+.radio_html {
+	width: 100%; height: 80px;
+}
+.actionsBig .introRow td {
+	color: rgb(102, 102, 102); vertical-align: middle;
+}
+.actionsBig .introRow td.full {
+	color: rgb(51, 51, 51); font-size: 13px; font-style: normal; font-weight: bold;
+}
+.actionsBig .introRow span {
+	font-size: 11px;
+}
+.actionsBig .plus {
+	background: url("http://icons.wxug.com/i/wu/actionIconsBig.png") no-repeat 0px 0px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actionsBig .plus:hover {
+	background: url("http://icons.wxug.com/i/wu/actionIconsBig.png") no-repeat 0px -24px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actionsBig .plusVoted {
+	background: url("http://icons.wxug.com/i/wu/actionIconsBig.png") no-repeat 0px -48px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actionsBig .report {
+	background: url("http://icons.wxug.com/i/wu/actionIconsBig.png") no-repeat -24px 0px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actionsBig .report:hover {
+	background: url("http://icons.wxug.com/i/wu/actionIconsBig.png") no-repeat -24px -24px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actionsBig .reportVoted {
+	background: url("http://icons.wxug.com/i/wu/actionIconsBig.png") no-repeat -24px -48px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actions .pNum {
+	color: rgb(102, 102, 102); line-height: 22px; font-style: normal; border-bottom-color: rgb(51, 51, 51); border-bottom-width: 1px; border-bottom-style: dotted; cursor: help;
+}
+.actions .plus {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat 0px 0px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actions .plus:hover {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat 0px -22px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actions .plusVoted {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat 0px -44px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actions .minus {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat -22px 0px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actions .minus:hover {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat -22px -22px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actions .minusVoted {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat -22px -44px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actions .report {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat -44px 0px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actions .report:hover {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat -44px -22px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actions .reportVoted {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat -44px -44px; width: 22px; height: 22px; overflow: hidden; display: block;
+}
+.actions .hide {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat -66px 0px; width: 44px; height: 22px; overflow: hidden; display: block;
+}
+.actions .hide:hover {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat -66px -22px; width: 44px; height: 22px; overflow: hidden; display: block;
+}
+.actions .hideVoted {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat -66px -44px; width: 44px; height: 22px; overflow: hidden; display: block;
+}
+.actions .show {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat -110px 0px; width: 44px; height: 22px; overflow: hidden; display: block;
+}
+.actions .show:hover {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat -110px -22px; width: 44px; height: 22px; overflow: hidden; display: block;
+}
+.actions .showVoted {
+	background: url("http://icons.wxug.com/i/wu/actionIcons.png") no-repeat -110px -44px; width: 44px; height: 22px; overflow: hidden; display: block;
+}
+.casterMapMarker {
+	background: url("http://icons.wxug.com/i/wu/stationSelector.png") no-repeat -1px -114px; width: 26px; height: 23px; text-align: center; color: rgb(255, 255, 255); line-height: 23px; overflow: hidden; font-size: 11px; text-decoration: none; display: block;
+}
+.none.casterMapMarker {
+	display: none;
+}
+.hover.casterMapMarker {
+	background-position: -1px -139px;
+}
+.casterMapMarker:visited {
+	color: rgb(255, 255, 255);
+}
+.casterMapMarker:hover {
+	text-decoration: none;
+}
+.glossary dt {
+	margin: 0px 0px 5px;
+}
+.glossary dt .glossaryTerm {
+	font-weight: bold;
+}
+.glossary dd {
+	margin: 0px 0px 1em;
+}
+.glossary dd .glossarySourceLine {
+	color: rgb(102, 102, 102); font-size: 10px;
+}
+.glossary .pendingDelete {
+	background-color: rgb(255, 221, 221);
+}
+.glossaryForm label {
+	width: 75px; float: left; display: block;
+}
+.glossaryForm textarea {
+	width: 310px;
+}
+.wui-log {
+	border: 1px solid rgb(204, 204, 204); min-width: 400px; background-color: rgb(245, 245, 245);
+}
+.wui-log .wui-log-head {
+	background-color: rgb(221, 221, 221);
+}
+.wui-log .wui-log-body {
+	padding: 0px 2px; height: 120px; overflow-y: scroll;
+}
+.wui-log .wui-log-row {
+	border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.wui-log .wui-log-time {
+	color: rgb(102, 102, 102); font-size: 10px;
+}
+.wui-log .wui-log-close {
+	float: right;
+}
+.i {
+	font-style: italic;
+}
+.b {
+	font-weight: bold;
+}
+.nb {
+	font-weight: normal;
+}
+.ww {
+	word-wrap: break-word;
+}
+.p0 {
+	padding: 0px !important;
+}
+.p3 {
+	padding: 3px;
+}
+.p5 {
+	padding: 5px;
+}
+.p10 {
+	padding: 10px;
+}
+.p12 {
+	padding: 12px;
+}
+.p20 {
+	padding: 20px;
+}
+.m0 {
+	margin: 0px !important;
+}
+.m5 {
+	margin: 5px;
+}
+.m10 {
+	margin: 10px;
+}
+.tm5 {
+	margin-top: 5px;
+}
+.rm5 {
+	margin-right: 5px;
+}
+.rm10 {
+	margin-right: 10px;
+}
+.rm12 {
+	margin-right: 12px;
+}
+.rm25 {
+	margin-right: 25px;
+}
+.lm5 {
+	margin-left: 5px;
+}
+.lm10 {
+	margin-left: 10px;
+}
+.lm12 {
+	margin-left: 12px;
+}
+.tm12 {
+	margin-top: 12px !important;
+}
+.tm40 {
+	margin-top: 40px;
+}
+.tm50 {
+	margin-top: 50px;
+}
+.tm60 {
+	margin-top: 60px;
+}
+.bm10 {
+	margin-bottom: 10px;
+}
+.bm12 {
+	margin-bottom: 12px;
+}
+.bm20 {
+	margin-bottom: 20px;
+}
+.taC {
+	text-align: center;
+}
+.taR {
+	text-align: right;
+}
+.taL {
+	text-align: left;
+}
+.taJ {
+	text-align: justify;
+}
+.vaT {
+	vertical-align: top;
+}
+.vaB {
+	vertical-align: bottom;
+}
+.cap {
+	text-transform: capitalize;
+}
+.sup {
+	top: -0.4em; font-size: 0.8em; vertical-align: baseline; position: relative;
+}
+.quart {
+	width: 25%;
+}
+.third {
+	width: 33%;
+}
+.half {
+	width: 50%;
+}
+.full {
+	width: 100%;
+}
+.none {
+	display: none;
+}
+.block {
+	display: block;
+}
+.nobr {
+	white-space: nowrap;
+}
+.clearItem {
+	clear: both;
+}
+.clear {
+	height: 0px; clear: both;
+}
+.title {
+	text-align: right; white-space: nowrap;
+}
+.field {
+	white-space: nowrap;
+}
+.borderAll {
+	border: 1px solid rgb(190, 190, 190);
+}
+.borderTop {
+	border-top-color: rgb(190, 190, 190); border-top-width: 1px; border-top-style: solid;
+}
+.borderRight {
+	border-right-color: rgb(190, 190, 190); border-right-width: 1px; border-right-style: solid;
+}
+.borderBot {
+	border-bottom-color: rgb(190, 190, 190); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.borderLeft {
+	border-left-color: rgb(190, 190, 190); border-left-width: 1px; border-left-style: solid;
+}
+.fRight {
+	float: right;
+}
+.fLeft {
+	float: left;
+}
+.cellSep {
+	border-left-color: rgb(224, 224, 224); border-left-width: 1px; border-left-style: solid;
+}
+.unit160 {
+	width: 160px; overflow: hidden;
+}
+.asPix {
+	display: none;
+}
+.newButton {
+	background: url("http://icons.wxug.com/i/wu/newBG.gif") no-repeat right; padding-right: 35px;
+}
+.imgBorder {
+	border: 1px solid rgb(51, 51, 51);
+}
+.noticeSmall {
+	color: rgb(153, 153, 153); font-size: 11px;
+}
+.padList li {
+	margin-bottom: 7px;
+}
+.cPointer {
+	cursor: pointer;
+}
+.cDefault {
+	cursor: default;
+}
+.bcC {
+	border-collapse: collapse;
+}
+.bs0 {
+	border-spacing: 0;
+}
+.w125 {
+	width: 125px;
+}
+.w142 {
+	width: 142px;
+}
+.w150 {
+	width: 150px;
+}
+.w200 {
+	width: 200px;
+}
+.w202 {
+	width: 202px;
+}
+.w220 {
+	width: 220px;
+}
+.w250 {
+	width: 250px;
+}
+.w275 {
+	width: 275px;
+}
+.w295 {
+	width: 295px;
+}
+.w300 {
+	width: 300px;
+}
+.w336 {
+	width: 336px;
+}
+.w400 {
+	width: 400px;
+}
+.w500 {
+	width: 500px;
+}
+.w650 {
+	width: 650px;
+}
+.h500 {
+	height: 500px;
+}
+.posRel {
+	position: relative;
+}
+.posAbs {
+	position: absolute;
+}
+.red {
+	color: rgb(255, 0, 0) !important;
+}
+.blue {
+	color: rgb(0, 0, 255);
+}
+.grey {
+	color: rgb(153, 153, 153);
+}
+.white {
+	color: rgb(255, 255, 255);
+}
+.green {
+	color: rgb(0, 136, 0);
+}
+.rfGreen {
+	color: rgb(56, 155, 6);
+}
+.orange {
+	color: rgb(255, 136, 0);
+}
+.yellow {
+	color: rgb(255, 255, 0);
+}
+.new {
+	color: rgb(165, 46, 22); font-size: 10px; font-variant: small-caps; font-weight: bold;
+}
+.w10 {
+	width: 10px;
+}
+.w15 {
+	width: 15px;
+}
+.vaT {
+	vertical-align: top;
+}
+.vaM {
+	vertical-align: middle;
+}
+.vaB {
+	vertical-align: bottom;
+}
+.borderGB {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.borderBB {
+	border-bottom-color: rgb(0, 0, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.leftBar {
+	width: 130px; font-size: 12px;
+}
+.code {
+	border: 1px solid rgb(204, 204, 204); width: 300px; text-align: left; font-family: Courier,monospace; font-size: 11px; background-color: rgb(245, 245, 245);
+}
+.txtOnly img {
+	display: none;
+}
+.txtOnly object {
+	display: none;
+}
+.txtOnly embed {
+	display: none;
+}
+.boxR {
+	border: 1px solid rgb(153, 0, 0); vertical-align: top; background-color: rgb(255, 255, 255);
+}
+.boxG {
+	border: 1px solid rgb(204, 204, 204); vertical-align: top; background-color: rgb(255, 255, 255);
+}
+.boxB {
+	border: 1px solid rgb(0, 0, 136); vertical-align: top; background-color: rgb(255, 255, 255);
+}
+.tm10 {
+	margin-top: 10px;
+}
+.tm20 {
+	margin-top: 20px;
+}
+.bm5 {
+	margin-bottom: 5px;
+}
+.bm10 {
+	margin-bottom: 10px;
+}
+.bm20 {
+	margin-bottom: 20px;
+}
+.bm15 {
+	margin-bottom: 15px;
+}
+.lm10 {
+	margin-left: 10px;
+}
+.lm20 {
+	margin-left: 20px;
+}
+.gap1 {
+	height: 1px; line-height: 1px; clear: both;
+}
+.none {
+	display: none;
+}
+.onlyPrint {
+	display: none;
+}
+.nobr {
+	white-space: nowrap;
+}
+.pre {
+	white-space: pre;
+}
+.caps {
+	text-transform: capitalize;
+}
+.lower {
+	text-transform: lowercase;
+}
+.clear {
+	clear: both;
+}
+.ad125 {
+	width: 135px; text-align: center; margin-top: 5px; margin-bottom: 5px; float: left;
+}
+.center {
+	margin: 0px auto;
+}
+.subG {
+	padding: 2px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(245, 245, 245);
+}
+.subW {
+	padding: 2px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+.mainB {
+	padding: 2px; font-size: 14px; font-weight: bold; border-bottom-color: rgb(23, 44, 108); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(205, 217, 255);
+}
+.bgW {
+	background-color: rgb(255, 255, 255);
+}
+.bgG {
+	background-color: rgb(238, 238, 238);
+}
+.bgY {
+	background-color: rgb(255, 255, 204);
+}
+.rowG td {
+	color: rgb(0, 0, 0); background-color: rgb(238, 238, 238);
+}
+.rowW td {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.rowW:hover td {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 204);
+}
+.rowY td {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 204);
+}
+.sm {
+	font-family: Verdana,sans-serif; font-size: 11px;
+}
+.smB {
+	font-family: Verdana,sans-serif; font-size: 11px; font-weight: bold;
+}
+.small {
+	font-size: 12px;
+}
+.med {
+	font-size: 14px;
+}
+.big {
+	font-size: 16px;
+}
+.TabBox {
+	border-width: 2px 1px 1px; border-style: solid; border-color: rgb(23, 44, 108);
+}
+.TabNavOn {
+	border-width: 1px; border-style: solid; border-color: rgb(33, 63, 154) rgb(51, 51, 51) rgb(23, 44, 108) rgb(33, 63, 154); height: 20px; text-align: center; color: rgb(255, 255, 255); padding-right: 10px; padding-left: 10px; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold; margin-right: 2px; margin-left: 2px; white-space: nowrap; background-color: rgb(23, 44, 108);
+}
+.TabNavOff {
+	height: 18px; text-align: center; padding-right: 10px; padding-left: 10px; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold; margin-right: 2px; margin-left: 2px; border-top-color: rgb(123, 163, 198); border-right-color: rgb(153, 153, 153); border-left-color: rgb(123, 163, 198); border-top-width: 1px; border-right-width: 1px; border-left-width: 5px; border-top-style: solid; border-right-style: solid; border-left-style: solid; white-space: nowrap; background-color: rgb(221, 238, 255);
+}
+.TabNavOver {
+	height: 18px; text-align: center; padding-right: 10px; padding-left: 10px; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold; margin-right: 2px; margin-left: 2px; border-top-color: rgb(66, 69, 173); border-right-color: rgb(0, 0, 136); border-left-color: rgb(66, 69, 173); border-top-width: 1px; border-right-width: 1px; border-left-width: 5px; border-top-style: solid; border-right-style: solid; border-left-style: solid; white-space: nowrap; background-color: rgb(221, 238, 255);
+}
+.TabLink {
+	color: rgb(23, 44, 108); text-decoration: none;
+}
+.leftButton {
+	width: 129px; margin-bottom: 1px; border-top-color: rgb(204, 204, 204); border-right-color: rgb(153, 153, 153); border-bottom-color: rgb(153, 153, 153); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+.leftButton:hover {
+	background-color: rgb(255, 255, 204);
+}
+.leftButton a {
+	color: rgb(0, 0, 255); text-decoration: none;
+}
+.leftButton img {
+	margin: 1px 3px 1px 1px;
+}
+.leftList {
+	margin: 0px;
+}
+.leftList li {
+	margin: 0px; padding: 2px 0px 2px 5px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; list-style-type: none; background-color: rgb(255, 255, 255);
+}
+.leftadbody {
+	background-color: rgb(255, 255, 255);
+}
+.leftadbody li {
+	list-style-type: circle;
+}
+.iconKey {
+	margin: 5px; width: 50px; text-align: center; font-size: 10px; float: left;
+}
+.endBox {
+	height: 0px; line-height: 0;
+}
+.popImg {
+	border-width: 1px; border-style: solid; border-color: rgb(73, 108, 216) rgb(23, 44, 108) rgb(23, 44, 108) rgb(73, 108, 216);
+}
+.indentImg {
+	border-width: 1px; border-style: solid; border-color: rgb(23, 44, 108) rgb(73, 108, 216) rgb(73, 108, 216) rgb(23, 44, 108);
+}
+.subLink {
+	margin: 10px 0px; padding: 1px 10px; border: 1px solid rgb(154, 130, 33); color: rgb(23, 44, 108); text-decoration: none; display: inline; background-color: rgb(255, 235, 155);
+}
+.subLink:hover {
+	border: 1px solid rgb(108, 91, 23); background-color: rgb(255, 245, 205);
+}
+.leftLink {
+	padding: 2px; border: 1px solid rgb(155, 180, 255); color: rgb(33, 63, 154); text-decoration: none; background-color: rgb(255, 255, 255);
+}
+.leftLink:hover {
+	border: 1px solid rgb(33, 63, 154); color: rgb(33, 63, 154); background-color: rgb(255, 255, 204);
+}
+.wxStickerType {
+	margin: 0px 0px 10px; padding: 2px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.stickerCode {
+	margin: 10px; width: 600px; height: 100px;
+}
+.bgMap {
+	background-image: url("http://icons.wxug.com/graphics/wu2/note_tornadomap.gif"); background-repeat: no-repeat;
+}
+.bgRadar {
+	background-image: url("http://icons.wxug.com/graphics/wu2/note_radar.gif"); background-repeat: no-repeat;
+}
+.bgRadio {
+	background-image: url("http://icons.wxug.com/graphics/wu2/note_wunderradio.gif"); background-repeat: no-repeat;
+}
+.bgTropicApple {
+	background-image: url("http://icons.wxug.com/graphics/wu2/note_tropicapple.gif"); background-repeat: no-repeat;
+}
+.noteFeature {
+	width: 300px; height: 50px; margin-bottom: 10px;
+}
+.noteFeature a {
+	width: 300px; height: 50px; text-align: center; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif; font-size: 14px; text-decoration: none; display: block;
+}
+.noteFeature a div.noteIntro {
+	color: rgb(23, 44, 108); padding-top: 7px;
+}
+.noteFeature a div.noteTitle {
+	color: rgb(23, 44, 108); padding-top: 3px; font-weight: bold; text-decoration: underline;
+}
+.notesBox {
+	border-width: 1px; border-style: solid; border-color: rgb(180, 180, 180) rgb(51, 51, 51) rgb(51, 51, 51) rgb(180, 180, 180); width: 450px; display: none; position: absolute; background-image: url("http://icons.wunderground.com/graphics/smash/bg_trans.gif"); background-repeat: repeat;
+}
+.notesBox .note-title {
+	margin: 2px 2px 0px; padding: 2px; border: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); font-weight: bold;
+}
+.notesBox .note-title .note-text {
+	float: left;
+}
+.notesBox .note-title .note-close {
+	width: 430px; height: 12px; float: left; white-space: nowrap; background-color: rgb(254, 255, 159);
+}
+.notesBox .body {
+	margin: 0px 5px 5px; padding: 5px; background-color: rgb(245, 245, 245);
+}
+.loading {
+	background-image: url("http://www.wunderground.com/miniurl/images/loading.gif"); background-repeat: no-repeat;
+}
+.loading-wa {
+	background-image: url("http://icons.wxug.com/graphics/arrow-loading-white.gif"); background-repeat: no-repeat;
+}
